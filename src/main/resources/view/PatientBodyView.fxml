@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="patientBodyAnchPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="875.0" style="-fx-background-color: #A5E360; -fx-border-color: black;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lk.kp.mentalhospital.controller.PatientBodyController">
+   <children>
+      <AnchorPane fx:id="patientHeaderAnchPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="875.0" style="-fx-background-color: Green; -fx-border-color: black;">
+         <children>
+            <Label fx:id="patientManageLbl" layoutX="304.0" layoutY="9.0" text="Patient Management" textFill="WHITE">
+               <font>
+                  <Font name="Serif Bold" size="28.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TableView fx:id="patientBodyTbl" layoutX="41.0" layoutY="244.0" onMouseClicked="#onClickPatientTable" prefHeight="232.0" prefWidth="626.0">
+        <columns>
+          <TableColumn fx:id="patientIdCol" prefWidth="75.0" text="Patient ID" />
+          <TableColumn fx:id="nameCol" prefWidth="75.0" text="Name" />
+            <TableColumn fx:id="addressCol" prefWidth="75.0" text="Address" />
+            <TableColumn fx:id="contactCol" prefWidth="75.0" text="Contact" />
+            <TableColumn fx:id="dateCol" prefWidth="99.20004272460938" text="Date" />
+            <TableColumn fx:id="stateCol" prefWidth="79.99993896484375" text="State" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </TableView>
+      <Button fx:id="patientSaveBtn" layoutX="701.0" layoutY="244.0" mnemonicParsing="false" onAction="#patientSaveBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Save">
+         <font>
+            <Font name="Serif Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="patientUpdateBtn" layoutX="701.0" layoutY="290.0" mnemonicParsing="false" onAction="#patientUpdateBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Update">
+         <font>
+            <Font name="Serif Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="patientDeleteBtn" layoutX="701.0" layoutY="337.0" mnemonicParsing="false" onAction="#patientDeleteBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Delete">
+         <font>
+            <Font name="Serif Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="patientResetBtn" layoutX="701.0" layoutY="384.0" mnemonicParsing="false" onAction="#patientResetBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Reset">
+         <font>
+            <Font name="Serif Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label fx:id="patientIdLbl" layoutX="41.0" layoutY="84.0" text="Patient ID">
+         <font>
+            <Font name="Serif Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="nameLbl" layoutX="41.0" layoutY="126.0" text="Name">
+         <font>
+            <Font name="Serif Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="addressLbl" layoutX="41.0" layoutY="166.0" text="Address">
+         <font>
+            <Font name="Serif Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="contactLbl" layoutX="470.0" layoutY="83.0" text="Contact">
+         <font>
+            <Font name="Serif Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="dateLbl" layoutX="470.0" layoutY="125.0" text="Date">
+         <font>
+            <Font name="Serif Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="stateLbl" layoutX="470.0" layoutY="165.0" text="State">
+         <font>
+            <Font name="Serif Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="patientIdShowLbl" layoutX="174.0" layoutY="83.0" prefHeight="20.0" prefWidth="242.0" text="PA100">
+         <font>
+            <Font name="Serif Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameTxt" layoutX="174.0" layoutY="123.0" prefHeight="26.0" prefWidth="241.0" style="-fx-border-color: black;">
+         <font>
+            <Font name="Serif Bold" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="addressTxt" layoutX="174.0" layoutY="163.0" prefHeight="26.0" prefWidth="242.0" style="-fx-border-color: black;">
+         <font>
+            <Font name="Serif Bold" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="contactTxt" layoutX="615.0" layoutY="79.0" prefHeight="26.0" prefWidth="224.0" style="-fx-border-color: black;">
+         <font>
+            <Font name="Serif Bold" size="14.0" />
+         </font>
+      </TextField>
+      <ComboBox fx:id="stateCombo" layoutX="615.0" layoutY="163.0" prefHeight="26.0" prefWidth="224.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></ComboBox>
+      <Label fx:id="dateShowLbl" layoutX="616.0" layoutY="125.0" prefHeight="20.0" prefWidth="93.0" text="2024-10-10">
+         <font>
+            <Font name="Serif Bold" size="17.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="searchByProgramCombo" layoutX="265.0" layoutY="501.0" prefHeight="26.0" prefWidth="224.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ComboBox>
+      <Label fx:id="searchByProgramLbl" layoutX="44.0" layoutY="505.0" text="Search Patient By Program">
+         <font>
+            <Font name="Serif Bold" size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="searchBtn" layoutX="499.0" layoutY="501.0" mnemonicParsing="false" onAction="#searchBtnActionClicked" prefHeight="27.0" prefWidth="30.0" style="-fx-background-color: black;" textFill="#0d0101" />
+      <ImageView fx:id="searchIcon" fitHeight="20.0" fitWidth="24.0" layoutX="504.0" layoutY="505.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/search-icon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
