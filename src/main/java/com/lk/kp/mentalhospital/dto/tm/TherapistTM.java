@@ -2,8 +2,6 @@ package com.lk.kp.mentalhospital.dto.tm;
 
 import lombok.*;
 
-import java.sql.Date;
-
 @Getter
 @Setter
 @NoArgsConstructor
@@ -12,10 +10,9 @@ import java.sql.Date;
 
 public class TherapistTM {
     private String therapistID;
+    private String programID;
     private String name;
     private String contact;
     private String specification;
-    private Date regDate;
-    private String state;
-
 }
+

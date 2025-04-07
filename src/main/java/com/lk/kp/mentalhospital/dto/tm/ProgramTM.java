@@ -10,9 +10,9 @@ import lombok.*;
 
 public class ProgramTM {
     private String programID;
+    private String therapistID;
     private String name;
     private String duration;
     private double fee;
-
 }
 

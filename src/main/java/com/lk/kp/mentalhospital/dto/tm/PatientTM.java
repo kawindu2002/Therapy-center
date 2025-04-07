@@ -12,11 +12,11 @@ import java.sql.Date;
 
 public class PatientTM {
     private String patientID;
-    private String name;
+    private String firstName;
+    private String secondName;
     private String address;
     private String contact;
     private Date regDate;
-    private String state;
 
 }
 

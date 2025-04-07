@@ -12,10 +12,11 @@ import java.sql.Date;
 
 public class PaymentTM {
     private String paymentID;
-    private String patientID;
+    private String registrationID;
+    private String therapysessionID;
     private double price;
     private Date paymentDate;
     private String method;
-    private String status;
 
 }
+
