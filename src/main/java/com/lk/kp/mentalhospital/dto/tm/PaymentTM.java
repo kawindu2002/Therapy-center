@@ -19,4 +19,3 @@ public class PaymentTM {
     private String method;
 
 }
-

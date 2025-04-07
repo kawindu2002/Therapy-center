@@ -337,7 +337,13 @@ public class PaymentBodyController implements Initializable {
 }
 
 //------------------------------------------------------------------------------------------------------
-
+//
+//@FXML
+//private TableColumn<?, ?> dateCol;
+//
+//@FXML
+//private Label dateLbl;
+//
 //@FXML
 //private Label dateShowLbl;
 //
@@ -351,31 +357,10 @@ public class PaymentBodyController implements Initializable {
 //private Label methodLbl;
 //
 //@FXML
-//private TableColumn<?, ?> patientIdCol;
-//
-//@FXML
-//private ComboBox<?> patientIdCombo;
-//
-//@FXML
-//private Label patientIdLbl;
-//
-//@FXML
-//private Label patientNameLbl;
-//
-//@FXML
-//private Label patientNameShowLbl;
-//
-//@FXML
 //private AnchorPane paymentBodyAnchPane;
 //
 //@FXML
 //private TableView<?> paymentBodyTbl;
-//
-//@FXML
-//private TableColumn<?, ?> paymentDateCol;
-//
-//@FXML
-//private Label paymentDateLbl;
 //
 //@FXML
 //private Button paymentDeleteBtn;
@@ -396,6 +381,9 @@ public class PaymentBodyController implements Initializable {
 //private Label paymentManageLbl;
 //
 //@FXML
+//private Button paymentReportBtn;
+//
+//@FXML
 //private Button paymentResetBtn;
 //
 //@FXML
@@ -414,13 +402,22 @@ public class PaymentBodyController implements Initializable {
 //private TextField priceTxt;
 //
 //@FXML
-//private TableColumn<?, ?> statusCol;
+//private TableColumn<?, ?> regIdCol;
 //
 //@FXML
-//private ComboBox<?> statusCombo;
+//private ComboBox<?> regIdCombo;
 //
 //@FXML
-//private Label statusLbl;
+//private Label regIdLbl;
+//
+//@FXML
+//private TableColumn<?, ?> sessionIdCol;
+//
+//@FXML
+//private ComboBox<?> sessionIdCombo;
+//
+//@FXML
+//private Label sessionLbl;
 //
 //@FXML
 //void methodComboActionClicked(ActionEvent event) {
@@ -433,12 +430,12 @@ public class PaymentBodyController implements Initializable {
 //}
 //
 //@FXML
-//void patientIdComboOnAction(ActionEvent event) {
+//void paymentDeleteBtnActionClicked(ActionEvent event) {
 //
 //}
 //
 //@FXML
-//void paymentDeleteBtnActionClicked(ActionEvent event) {
+//void paymentReportBtnActionClicked(ActionEvent event) {
 //
 //}
 //
@@ -458,7 +455,12 @@ public class PaymentBodyController implements Initializable {
 //}
 //
 //@FXML
-//void stateComboActionClicked(ActionEvent event) {
+//void regIdComboOnAction(ActionEvent event) {
+//
+//}
+//
+//@FXML
+//void sessionIdComboActionClicked(ActionEvent event) {
 //
 //}
 
