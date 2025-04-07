@@ -339,36 +339,6 @@ public class RegistrationBodyController implements Initializable {
 
 //
 //@FXML
-//private AnchorPane appointmentBodyAnchPane;
-//
-//@FXML
-//private TableView<?> appointmentBodyTbl;
-//
-//@FXML
-//private Button appointmentDeleteBtn;
-//
-//@FXML
-//private AnchorPane appointmentHeaderAnchPane;
-//
-//@FXML
-//private TableColumn<?, ?> appointmentIdCol;
-//
-//@FXML
-//private Label appointmentIdLbl;
-//
-//@FXML
-//private Label appointmentManageLbl;
-//
-//@FXML
-//private Button appointmentResetBtn;
-//
-//@FXML
-//private Button appointmentSaveBtn;
-//
-//@FXML
-//private Button appointmentUpdateBtn;
-//
-//@FXML
 //private TableColumn<?, ?> dateCol;
 //
 //@FXML
@@ -408,60 +378,37 @@ public class RegistrationBodyController implements Initializable {
 //private Label programNameShowLbl;
 //
 //@FXML
-//private TableColumn<?, ?> stateCol;
+//private AnchorPane registrationBodyAnchPane;
 //
 //@FXML
-//private ComboBox<?> stateCombo;
+//private TableView<?> registrationBodyTbl;
 //
 //@FXML
-//private Label stateLbl;
+//private Button registrationDeleteBtn;
 //
 //@FXML
-//private TableColumn<?, ?> therapistIdCol;
+//private AnchorPane registrationHeaderAnchPane;
 //
 //@FXML
-//private ComboBox<?> therapistIdCombo;
+//private TableColumn<?, ?> registrationIdCol;
 //
 //@FXML
-//private Label therapistIdLbl;
+//private Label registrationIdLbl;
 //
 //@FXML
-//private Label therapistNameLbl;
+//private Label registrationIdShowLbl;
 //
 //@FXML
-//private Label therapistNameShowLbl;
+//private Label registrationManageLbl;
 //
 //@FXML
-//private TableColumn<?, ?> timeCol;
+//private Button registrationResetBtn;
 //
 //@FXML
-//private Label timeLbl;
+//private Button registrationSaveBtn;
 //
 //@FXML
-//private Label timeShowLbl;
-//
-//@FXML
-//private Label userIdShowLbl;
-//
-//@FXML
-//void appointmentDeleteBtnActionClicked(ActionEvent event) {
-//
-//}
-//
-//@FXML
-//void appointmentResetBtnActionClicked(ActionEvent event) {
-//
-//}
-//
-//@FXML
-//void appointmentSaveBtnActionClicked(ActionEvent event) {
-//
-//}
-//
-//@FXML
-//void appointmentUpdateBtnActionClicked(ActionEvent event) {
-//
-//}
+//private Button registrationUpdateBtn;
 //
 //@FXML
 //void onClickAppointmentTable(MouseEvent event) {
@@ -479,12 +426,25 @@ public class RegistrationBodyController implements Initializable {
 //}
 //
 //@FXML
-//void stateComboActionClicked(ActionEvent event) {
+//void registrationDeleteBtnActionClicked(ActionEvent event) {
 //
 //}
 //
 //@FXML
-//void therapistIdComboActionClicked(ActionEvent event) {
+//void registrationResetBtnActionClicked(ActionEvent event) {
 //
 //}
+//
+//@FXML
+//void registrationSaveBtnActionClicked(ActionEvent event) {
+//
+//}
+//
+//@FXML
+//void registrationUpdateBtnActionClicked(ActionEvent event) {
+//
+//}
+//
+//
+
 

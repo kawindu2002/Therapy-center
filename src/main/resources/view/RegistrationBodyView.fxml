@@ -9,26 +9,23 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="appointmentBodyAnchPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="875.0" style="-fx-background-color: #A5E360; -fx-border-color: black;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lk.kp.mentalhospital.controller.RegistrationBodyController">
+<AnchorPane fx:id="registrationBodyAnchPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="875.0" style="-fx-background-color: #A5E360; -fx-border-color: black;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lk.kp.mentalhospital.controller.RegistrationBodyController">
    <children>
-      <AnchorPane fx:id="appointmentHeaderAnchPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="875.0" style="-fx-background-color: Green; -fx-border-color: black;">
+      <AnchorPane fx:id="registrationHeaderAnchPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="875.0" style="-fx-background-color: Green; -fx-border-color: black;">
          <children>
-            <Label fx:id="appointmentManageLbl" layoutX="297.0" layoutY="9.0" text="Appointment Management" textFill="WHITE">
+            <Label fx:id="registrationManageLbl" layoutX="297.0" layoutY="9.0" text="Registration Management" textFill="WHITE">
                <font>
                   <Font name="Serif Bold" size="28.0" />
                </font>
             </Label>
          </children>
       </AnchorPane>
-      <TableView fx:id="appointmentBodyTbl" layoutX="41.0" layoutY="281.0" onMouseClicked="#onClickAppointmentTable" prefHeight="229.0" prefWidth="626.0">
+      <TableView fx:id="registrationBodyTbl" layoutX="41.0" layoutY="238.0" onMouseClicked="#onClickAppointmentTable" prefHeight="283.0" prefWidth="626.0">
         <columns>
-          <TableColumn fx:id="appointmentIdCol" prefWidth="107.20001983642578" text="Appointment ID" />
+          <TableColumn fx:id="registrationIdCol" prefWidth="107.20001983642578" text="Registration ID" />
           <TableColumn fx:id="patientIdCol" prefWidth="60.79998779296875" text="Patient ID" />
-            <TableColumn fx:id="therapistIdCol" prefWidth="75.0" text="Therapist ID" />
             <TableColumn fx:id="programIdCol" prefWidth="92.79998779296875" text="Program ID" />
             <TableColumn fx:id="dateCol" prefWidth="95.20001220703125" text="Date" />
-            <TableColumn fx:id="timeCol" prefWidth="79.99993896484375" text="Time" />
-            <TableColumn fx:id="stateCol" prefWidth="79.99993896484375" text="State" />
         </columns>
          <columnResizePolicy>
             <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
@@ -37,7 +34,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </TableView>
-      <Button fx:id="appointmentSaveBtn" layoutX="701.0" layoutY="282.0" mnemonicParsing="false" onAction="#appointmentSaveBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Save">
+      <Button fx:id="registrationSaveBtn" layoutX="701.0" layoutY="236.0" mnemonicParsing="false" onAction="#registrationSaveBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Save">
          <font>
             <Font name="Serif Bold" size="16.0" />
          </font>
@@ -45,7 +42,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="appointmentUpdateBtn" layoutX="701.0" layoutY="328.0" mnemonicParsing="false" onAction="#appointmentUpdateBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Update">
+      <Button fx:id="registrationUpdateBtn" layoutX="701.0" layoutY="282.0" mnemonicParsing="false" onAction="#registrationUpdateBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Update">
          <font>
             <Font name="Serif Bold" size="16.0" />
          </font>
@@ -53,7 +50,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="appointmentDeleteBtn" layoutX="701.0" layoutY="375.0" mnemonicParsing="false" onAction="#appointmentDeleteBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Delete">
+      <Button fx:id="registrationDeleteBtn" layoutX="701.0" layoutY="329.0" mnemonicParsing="false" onAction="#registrationDeleteBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Delete">
          <font>
             <Font name="Serif Bold" size="16.0" />
          </font>
@@ -61,7 +58,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="appointmentResetBtn" layoutX="701.0" layoutY="422.0" mnemonicParsing="false" onAction="#appointmentResetBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Reset">
+      <Button fx:id="registrationResetBtn" layoutX="701.0" layoutY="376.0" mnemonicParsing="false" onAction="#registrationResetBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Reset">
          <font>
             <Font name="Serif Bold" size="16.0" />
          </font>
@@ -69,101 +66,62 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Label fx:id="appointmentIdLbl" layoutX="41.0" layoutY="83.0" text="Appointment ID">
+      <Label fx:id="registrationIdLbl" layoutX="41.0" layoutY="83.0" text="Registration ID">
          <font>
             <Font name="Serif Bold" size="17.0" />
          </font>
       </Label>
-      <Label fx:id="patientIdLbl" layoutX="41.0" layoutY="156.0" text="Patient ID">
+      <Label fx:id="patientIdLbl" layoutX="41.0" layoutY="126.0" text="Patient ID">
          <font>
             <Font name="Serif Bold" size="17.0" />
          </font>
       </Label>
-      <Label fx:id="therapistIdLbl" layoutX="41.0" layoutY="193.0" text="Therapist ID">
+      <Label fx:id="programIdLbl" layoutX="41.0" layoutY="167.0" text="Program ID">
          <font>
             <Font name="Serif Bold" size="17.0" />
          </font>
       </Label>
-      <Label fx:id="programIdLbl" layoutX="41.0" layoutY="231.0" text="Program ID">
+      <Label fx:id="dateLbl" layoutX="510.0" layoutY="83.0" text="Date">
          <font>
             <Font name="Serif Bold" size="17.0" />
          </font>
       </Label>
-      <Label fx:id="dateLbl" layoutX="508.0" layoutY="83.0" text="Date">
+      <Label fx:id="registrationIdShowLbl" layoutX="186.0" layoutY="83.0" prefHeight="20.0" prefWidth="242.0" text="RG100">
          <font>
             <Font name="Serif Bold" size="17.0" />
          </font>
       </Label>
-      <Label fx:id="stateLbl" layoutX="41.0" layoutY="119.0" text="State">
+      <Label fx:id="dateShowLbl" layoutX="657.0" layoutY="83.0" prefHeight="20.0" prefWidth="178.0" text="2024-10-10">
          <font>
             <Font name="Serif Bold" size="17.0" />
          </font>
       </Label>
-      <Label fx:id="userIdShowLbl" layoutX="186.0" layoutY="83.0" prefHeight="20.0" prefWidth="242.0" text="AP100">
-         <font>
-            <Font name="Serif Bold" size="17.0" />
-         </font>
-      </Label>
-      <ComboBox fx:id="stateCombo" layoutX="185.0" layoutY="115.0" onAction="#stateComboActionClicked" prefHeight="27.0" prefWidth="232.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
-         <cursor>
-            <Cursor fx:constant="HAND" />
-         </cursor></ComboBox>
-      <Label fx:id="dateShowLbl" layoutX="655.0" layoutY="83.0" prefHeight="20.0" prefWidth="178.0" text="2024-10-10">
-         <font>
-            <Font name="Serif Bold" size="17.0" />
-         </font>
-      </Label>
-      <ComboBox fx:id="programIdCombo" layoutX="185.0" layoutY="227.0" onAction="#programIdComboActionClicked" prefHeight="27.0" prefWidth="232.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
+      <ComboBox fx:id="programIdCombo" layoutX="185.0" layoutY="163.0" onAction="#programIdComboActionClicked" prefHeight="27.0" prefWidth="232.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
       </ComboBox>
-      <ComboBox fx:id="patientIdCombo" layoutX="185.0" layoutY="152.0" onAction="#patientIdComboActionClicked" prefHeight="27.0" prefWidth="232.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
+      <ComboBox fx:id="patientIdCombo" layoutX="185.0" layoutY="122.0" onAction="#patientIdComboActionClicked" prefHeight="27.0" prefWidth="232.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
       </ComboBox>
-      <ComboBox fx:id="therapistIdCombo" layoutX="185.0" layoutY="189.0" onAction="#therapistIdComboActionClicked" prefHeight="27.0" prefWidth="232.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
-         <cursor>
-            <Cursor fx:constant="HAND" />
-         </cursor>
-      </ComboBox>
-      <Label fx:id="timeLbl" layoutX="508.0" layoutY="119.0" text="Time">
+      <Label fx:id="patientNameLbl" layoutX="509.0" layoutY="126.0" text="Patient Name">
          <font>
             <Font name="Serif Bold" size="17.0" />
          </font>
       </Label>
-      <Label fx:id="timeShowLbl" layoutX="655.0" layoutY="119.0" prefHeight="20.0" prefWidth="178.0" text="08:11">
+      <Label fx:id="programNameLbl" layoutX="509.0" layoutY="167.0" text="Program Name">
          <font>
             <Font name="Serif Bold" size="17.0" />
          </font>
       </Label>
-      <Label fx:id="patientNameLbl" layoutX="508.0" layoutY="155.0" text="Patient Name">
+      <Label fx:id="programNameShowLbl" layoutX="655.0" layoutY="167.0" prefHeight="20.0" prefWidth="178.0" text="(Program name)">
          <font>
             <Font name="Serif Bold" size="17.0" />
          </font>
       </Label>
-      <Label fx:id="therapistNameShowLbl" layoutX="653.0" layoutY="193.0" prefHeight="20.0" prefWidth="178.0" text="(Therapist name)">
-         <font>
-            <Font name="Serif Bold" size="17.0" />
-         </font>
-      </Label>
-      <Label fx:id="programNameLbl" layoutX="508.0" layoutY="230.0" text="Program Name">
-         <font>
-            <Font name="Serif Bold" size="17.0" />
-         </font>
-      </Label>
-      <Label fx:id="programNameShowLbl" layoutX="653.0" layoutY="231.0" prefHeight="20.0" prefWidth="178.0" text="(Program name)">
-         <font>
-            <Font name="Serif Bold" size="17.0" />
-         </font>
-      </Label>
-      <Label fx:id="therapistNameLbl" layoutX="508.0" layoutY="192.0" text="Therapist Name">
-         <font>
-            <Font name="Serif Bold" size="17.0" />
-         </font>
-      </Label>
-      <Label fx:id="patientNameShowLbl" layoutX="653.0" layoutY="156.0" prefHeight="20.0" prefWidth="178.0" text="(Patient name)">
+      <Label fx:id="patientNameShowLbl" layoutX="655.0" layoutY="126.0" prefHeight="20.0" prefWidth="178.0" text="(Patient name)">
          <font>
             <Font name="Serif Bold" size="17.0" />
          </font>
