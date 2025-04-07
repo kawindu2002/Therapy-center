@@ -104,7 +104,7 @@
             <Font name="Serif Bold" size="17.0" />
          </font>
       </Label>
-      <ComboBox fx:id="stateCombo" layoutX="627.0" layoutY="161.0" prefHeight="27.0" prefWidth="212.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
+      <ComboBox fx:id="stateCombo" layoutX="627.0" layoutY="161.0" onAction="#stateComboActionClicked" prefHeight="27.0" prefWidth="212.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></ComboBox>
@@ -123,7 +123,7 @@
             <Font name="Serif Bold" size="14.0" />
          </font>
       </TextField>
-      <ComboBox fx:id="roleCombo" layoutX="627.0" layoutY="79.0" prefHeight="27.0" prefWidth="212.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
+      <ComboBox fx:id="roleCombo" layoutX="627.0" layoutY="69.0" onAction="#roleComboActionClicked" prefHeight="27.0" prefWidth="212.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>

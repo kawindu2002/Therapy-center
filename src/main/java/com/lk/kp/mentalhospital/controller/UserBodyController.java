@@ -10,15 +10,11 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
-import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 
 import java.net.URL;
-import java.sql.Date;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.Optional;
 import java.util.ResourceBundle;
 
 public class UserBodyController implements Initializable {
@@ -340,9 +336,8 @@ public class UserBodyController implements Initializable {
 
 //-------------------------------------------------------------------------------------------------------------------------
 
-
 //@FXML
-//private TableColumn<UserTM, Date> dateCol;
+//private TableColumn<?, ?> dateCol;
 //
 //@FXML
 //private Label dateLbl;
@@ -351,7 +346,7 @@ public class UserBodyController implements Initializable {
 //private Label dateShowLbl;
 //
 //@FXML
-//private TableColumn<UserTM, String> nameCol;
+//private TableColumn<?, ?> nameCol;
 //
 //@FXML
 //private Label nameLbl;
@@ -360,7 +355,7 @@ public class UserBodyController implements Initializable {
 //private TextField nameTxt;
 //
 //@FXML
-//private TableColumn<UserTM, String> passwordCol;
+//private TableColumn<?, ?> passwordCol;
 //
 //@FXML
 //private Label passwordLbl;
@@ -369,19 +364,19 @@ public class UserBodyController implements Initializable {
 //private TextField passwordTxt;
 //
 //@FXML
-//private TableColumn<UserTM, String> roleCol;
+//private TableColumn<?, ?> roleCol;
 //
 //@FXML
-//private ComboBox<String> roleCombo;
+//private ComboBox<?> roleCombo;
 //
 //@FXML
 //private Label roleLbl;
 //
 //@FXML
-//private TableColumn<UserTM, String> stateCol;
+//private TableColumn<?, ?> stateCol;
 //
 //@FXML
-//private ComboBox<String> stateCombo;
+//private ComboBox<?> stateCombo;
 //
 //@FXML
 //private Label stateLbl;
@@ -390,7 +385,7 @@ public class UserBodyController implements Initializable {
 //private AnchorPane userBodyAnchPane;
 //
 //@FXML
-//private TableView<UserTM> userBodyTbl;
+//private TableView<?> userBodyTbl;
 //
 //@FXML
 //private Button userDeleteBtn;
@@ -399,7 +394,7 @@ public class UserBodyController implements Initializable {
 //private AnchorPane userHeaderAnchPane;
 //
 //@FXML
-//private TableColumn<UserTM, String> userIdCol;
+//private TableColumn<?, ?> userIdCol;
 //
 //@FXML
 //private Label userIdLbl;
@@ -425,6 +420,16 @@ public class UserBodyController implements Initializable {
 //}
 //
 //@FXML
+//void roleComboActionClicked(ActionEvent event) {
+//
+//}
+//
+//@FXML
+//void stateComboActionClicked(ActionEvent event) {
+//
+//}
+//
+//@FXML
 //void userDeleteBtnActionClicked(ActionEvent event) {
 //
 //}
@@ -443,4 +448,5 @@ public class UserBodyController implements Initializable {
 //void userUpdateBtnActionClicked(ActionEvent event) {
 //
 //}
+//
 
