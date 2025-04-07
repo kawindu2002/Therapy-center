@@ -335,6 +335,7 @@ public class TherapistBodyController implements Initializable {
 
 //----------------------------------------------------------------------------------------------------------------------
 
+//
 //@FXML
 //private TableColumn<?, ?> contactCol;
 //
@@ -343,15 +344,6 @@ public class TherapistBodyController implements Initializable {
 //
 //@FXML
 //private TextField contactTxt;
-//
-//@FXML
-//private TableColumn<?, ?> dateCol;
-//
-//@FXML
-//private Label dateLbl;
-//
-//@FXML
-//private Label dateShowLbl;
 //
 //@FXML
 //private TableColumn<?, ?> nameCol;
@@ -363,6 +355,21 @@ public class TherapistBodyController implements Initializable {
 //private TextField nameTxt;
 //
 //@FXML
+//private TableColumn<?, ?> programIdCol;
+//
+//@FXML
+//private ComboBox<?> programIdCombo;
+//
+//@FXML
+//private Label programIdLbl;
+//
+//@FXML
+//private Label programNameLbl;
+//
+//@FXML
+//private Label programNameShowLbl;
+//
+//@FXML
 //private TableColumn<?, ?> specificationCol;
 //
 //@FXML
@@ -370,15 +377,6 @@ public class TherapistBodyController implements Initializable {
 //
 //@FXML
 //private Label specificationLbl;
-//
-//@FXML
-//private TableColumn<?, ?> stateCol;
-//
-//@FXML
-//private ComboBox<?> stateCombo;
-//
-//@FXML
-//private Label stateLbl;
 //
 //@FXML
 //private AnchorPane therapistBodyAnchPane;
@@ -419,12 +417,12 @@ public class TherapistBodyController implements Initializable {
 //}
 //
 //@FXML
-//void specificationComboActionClicked(ActionEvent event) {
+//void programIdComboActionClicked(ActionEvent event) {
 //
 //}
 //
 //@FXML
-//void stateComboActionClicked(ActionEvent event) {
+//void specificationComboActionClicked(ActionEvent event) {
 //
 //}
 //
@@ -447,4 +445,4 @@ public class TherapistBodyController implements Initializable {
 //void therapistUpdateBtnActionClicked(ActionEvent event) {
 //
 //}
-
+//

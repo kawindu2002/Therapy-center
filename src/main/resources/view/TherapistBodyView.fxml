@@ -21,14 +21,13 @@
             </Label>
          </children>
       </AnchorPane>
-      <TableView fx:id="therapistBodyTbl" layoutX="37.0" layoutY="244.0" onMouseClicked="#onClickTherapistTable" prefHeight="270.0" prefWidth="630.0">
+      <TableView fx:id="therapistBodyTbl" layoutX="40.0" layoutY="244.0" onMouseClicked="#onClickTherapistTable" prefHeight="270.0" prefWidth="630.0">
         <columns>
           <TableColumn fx:id="therapistIdCol" prefWidth="75.0" text="Therapist ID" />
           <TableColumn fx:id="nameCol" prefWidth="75.0" text="Name" />
+            <TableColumn fx:id="programIdCol" prefWidth="75.0" text="Program ID" />
             <TableColumn fx:id="contactCol" prefWidth="75.0" text="Contact" />
-            <TableColumn fx:id="specificationCol" prefWidth="75.0" text="Specification" />
-            <TableColumn fx:id="dateCol" prefWidth="79.99993896484375" text="Date" />
-            <TableColumn fx:id="stateCol" prefWidth="99.20004272460938" text="State" />
+            <TableColumn fx:id="specificationCol" prefWidth="99.20004272460938" text="Specification" />
         </columns>
          <columnResizePolicy>
             <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
@@ -69,17 +68,17 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Label fx:id="therapistIdLbl" layoutX="41.0" layoutY="83.0" text="Therapist ID">
+      <Label fx:id="therapistIdLbl" layoutX="40.0" layoutY="83.0" text="Therapist ID">
          <font>
             <Font name="Serif Bold" size="17.0" />
          </font>
       </Label>
-      <Label fx:id="nameLbl" layoutX="41.0" layoutY="124.0" text="Name">
+      <Label fx:id="nameLbl" layoutX="40.0" layoutY="124.0" text="Name">
          <font>
             <Font name="Serif Bold" size="17.0" />
          </font>
       </Label>
-      <Label fx:id="contactLbl" layoutX="41.0" layoutY="165.0" text="Contact">
+      <Label fx:id="contactLbl" layoutX="39.0" layoutY="165.0" text="Contact">
          <font>
             <Font name="Serif Bold" size="17.0" />
          </font>
@@ -89,7 +88,7 @@
             <Font name="Serif Bold" size="17.0" />
          </font>
       </Label>
-      <Label fx:id="stateLbl" layoutX="474.0" layoutY="165.0" text="State">
+      <Label fx:id="programIdLbl" layoutX="474.0" layoutY="124.0" text="Program ID">
          <font>
             <Font name="Serif Bold" size="17.0" />
          </font>
@@ -99,7 +98,7 @@
             <Font name="Serif Bold" size="17.0" />
          </font>
       </Label>
-      <ComboBox fx:id="stateCombo" layoutX="623.0" layoutY="161.0" onAction="#stateComboActionClicked" prefHeight="27.0" prefWidth="212.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
+      <ComboBox fx:id="programIdCombo" layoutX="623.0" layoutY="120.0" onAction="#programIdComboActionClicked" prefHeight="27.0" prefWidth="212.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></ComboBox>
@@ -118,12 +117,12 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </ComboBox>
-      <Label fx:id="dateLbl" layoutX="474.0" layoutY="124.0" text="Date">
+      <Label fx:id="programNameLbl" layoutX="474.0" layoutY="165.0" text="Name">
          <font>
             <Font name="Serif Bold" size="17.0" />
          </font>
       </Label>
-      <Label fx:id="dateShowLbl" layoutX="625.0" layoutY="124.0" prefHeight="20.0" prefWidth="93.0" text="2024-10-10">
+      <Label fx:id="programNameShowLbl" layoutX="625.0" layoutY="165.0" prefHeight="20.0" prefWidth="93.0" text="name">
          <font>
             <Font name="Serif Bold" size="17.0" />
          </font>

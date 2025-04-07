@@ -10,8 +10,8 @@ import lombok.*;
 
 public class TherapistDTO {
     private String therapistID;
-    private String programID;
     private String name;
+    private String programID;
     private String contact;
     private String specification;
 }
