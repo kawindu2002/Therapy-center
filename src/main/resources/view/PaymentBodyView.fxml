@@ -97,7 +97,7 @@
             <Font name="Serif Bold" size="17.0" />
          </font>
       </Label>
-      <ComboBox fx:id="methodCombo" layoutX="597.0" layoutY="163.0" prefHeight="27.0" prefWidth="235.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
+      <ComboBox fx:id="methodCombo" layoutX="597.0" layoutY="163.0" onAction="#methodComboActionClicked" prefHeight="27.0" prefWidth="235.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></ComboBox>
@@ -132,7 +132,7 @@
             <Font name="Serif Bold" size="17.0" />
          </font>
       </Label>
-      <ComboBox fx:id="statusCombo" layoutX="174.0" layoutY="205.0" prefHeight="27.0" prefWidth="224.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
+      <ComboBox fx:id="statusCombo" layoutX="174.0" layoutY="205.0" onAction="#stateComboActionClicked" prefHeight="27.0" prefWidth="224.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>

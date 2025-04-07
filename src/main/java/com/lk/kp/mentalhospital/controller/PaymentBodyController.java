@@ -338,24 +338,23 @@ public class PaymentBodyController implements Initializable {
 
 //------------------------------------------------------------------------------------------------------
 
-
 //@FXML
 //private Label dateShowLbl;
 //
 //@FXML
-//private TableColumn<PaymentTM, String> methodCol;
+//private TableColumn<?, ?> methodCol;
 //
 //@FXML
-//private ComboBox<String> methodCombo;
+//private ComboBox<?> methodCombo;
 //
 //@FXML
 //private Label methodLbl;
 //
 //@FXML
-//private TableColumn<PaymentTM, String> patientIdCol;
+//private TableColumn<?, ?> patientIdCol;
 //
 //@FXML
-//private ComboBox<String> patientIdCombo;
+//private ComboBox<?> patientIdCombo;
 //
 //@FXML
 //private Label patientIdLbl;
@@ -370,10 +369,10 @@ public class PaymentBodyController implements Initializable {
 //private AnchorPane paymentBodyAnchPane;
 //
 //@FXML
-//private TableView<PaymentTM> paymentBodyTbl;
+//private TableView<?> paymentBodyTbl;
 //
 //@FXML
-//private TableColumn<PaymentTM, Date> paymentDateCol;
+//private TableColumn<?, ?> paymentDateCol;
 //
 //@FXML
 //private Label paymentDateLbl;
@@ -385,7 +384,7 @@ public class PaymentBodyController implements Initializable {
 //private AnchorPane paymentHeaderAnchPane;
 //
 //@FXML
-//private TableColumn<PaymentTM, String> paymentIdCol;
+//private TableColumn<?, ?> paymentIdCol;
 //
 //@FXML
 //private Label paymentIdLbl;
@@ -406,13 +405,27 @@ public class PaymentBodyController implements Initializable {
 //private Button paymentUpdateBtn;
 //
 //@FXML
-//private TableColumn<PaymentTM, Double> priceCol;
+//private TableColumn<?, ?> priceCol;
 //
 //@FXML
 //private Label priceLbl;
 //
 //@FXML
 //private TextField priceTxt;
+//
+//@FXML
+//private TableColumn<?, ?> statusCol;
+//
+//@FXML
+//private ComboBox<?> statusCombo;
+//
+//@FXML
+//private Label statusLbl;
+//
+//@FXML
+//void methodComboActionClicked(ActionEvent event) {
+//
+//}
 //
 //@FXML
 //void onClickPaymentTable(MouseEvent event) {
@@ -441,6 +454,11 @@ public class PaymentBodyController implements Initializable {
 //
 //@FXML
 //void paymentUpdateBtnActionClicked(ActionEvent event) {
+//
+//}
+//
+//@FXML
+//void stateComboActionClicked(ActionEvent event) {
 //
 //}
 
