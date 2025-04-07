@@ -16,7 +16,7 @@ public class PatientTM {
     private String secondName;
     private String address;
     private String contact;
-    private Date regDate;
+    private String gender;
 
 }
 

@@ -338,6 +338,7 @@ public class PatientBodyController implements Initializable {
 //-------------------------------------------------------------------------------------------
 //
 
+//
 //@FXML
 //private TableColumn<?, ?> addressCol;
 //
@@ -357,22 +358,31 @@ public class PatientBodyController implements Initializable {
 //private TextField contactTxt;
 //
 //@FXML
-//private TableColumn<?, ?> dateCol;
+//private TableColumn<?, ?> firstNameCol;
 //
 //@FXML
-//private Label dateLbl;
+//private Label firstNameLbl;
 //
 //@FXML
-//private Label dateShowLbl;
+//private TextField firstNameTxt;
 //
 //@FXML
-//private TableColumn<?, ?> nameCol;
+//private TableColumn<?, ?> genderCol;
 //
 //@FXML
-//private Label nameLbl;
+//private ComboBox<?> genderCombo;
 //
 //@FXML
-//private TextField nameTxt;
+//private Label genderLbl;
+//
+//@FXML
+//private TableColumn<?, ?> lastNameCol;
+//
+//@FXML
+//private Label lastNameLbl;
+//
+//@FXML
+//private TextField lastNameTxt;
 //
 //@FXML
 //private AnchorPane patientBodyAnchPane;
@@ -399,6 +409,9 @@ public class PatientBodyController implements Initializable {
 //private Label patientManageLbl;
 //
 //@FXML
+//private Button patientReportBtn;
+//
+//@FXML
 //private Button patientResetBtn;
 //
 //@FXML
@@ -420,13 +433,9 @@ public class PatientBodyController implements Initializable {
 //private ImageView searchIcon;
 //
 //@FXML
-//private TableColumn<?, ?> stateCol;
+//void genderComboActionClicked(ActionEvent event) {
 //
-//@FXML
-//private ComboBox<?> stateCombo;
-//
-//@FXML
-//private Label stateLbl;
+//}
 //
 //@FXML
 //void onClickPatientTable(MouseEvent event) {
@@ -435,6 +444,11 @@ public class PatientBodyController implements Initializable {
 //
 //@FXML
 //void patientDeleteBtnActionClicked(ActionEvent event) {
+//
+//}
+//
+//@FXML
+//void patientReportBtnActionClicked(ActionEvent event) {
 //
 //}
 //
@@ -462,9 +476,3 @@ public class PatientBodyController implements Initializable {
 //void searchByProgramComboActionClicked(ActionEvent event) {
 //
 //}
-//
-//@FXML
-//void stateComboActionClicked(ActionEvent event) {
-//
-//}
-
