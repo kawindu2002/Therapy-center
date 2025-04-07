@@ -333,7 +333,6 @@ public class AppointmentBodyController implements Initializable {
 //        roleCombo.setStyle(roleCombo.getStyle() + CommonUtil.defaultColorBorder);
 //        stateCombo.setStyle(stateCombo.getStyle() + CommonUtil.defaultColorBorder);
     }
-
 }
 
 //------------------------------------------------------------------------------------------------------
