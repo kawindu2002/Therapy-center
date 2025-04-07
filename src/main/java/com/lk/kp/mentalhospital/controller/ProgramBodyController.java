@@ -337,7 +337,8 @@ public class ProgramBodyController implements Initializable {
 }
 
 //------------------------------------------------------------------------------------------------------
-
+//
+//
 //@FXML
 //private TableColumn<?, ?> durationCol;
 //
@@ -399,6 +400,21 @@ public class ProgramBodyController implements Initializable {
 //private Button programUpdateBtn;
 //
 //@FXML
+//private TableColumn<?, ?> therapistIdCol;
+//
+//@FXML
+//private ComboBox<?> therapistIdCombo;
+//
+//@FXML
+//private Label therapistIdLbl;
+//
+//@FXML
+//private Label therapistNameLbl;
+//
+//@FXML
+//private Label therapistNameShowLbl;
+//
+//@FXML
 //void onClickProgramTable(MouseEvent event) {
 //
 //}
@@ -423,4 +439,7 @@ public class ProgramBodyController implements Initializable {
 //
 //}
 //
-
+//@FXML
+//void therapistIdComboOnAction(ActionEvent event) {
+//
+//}
