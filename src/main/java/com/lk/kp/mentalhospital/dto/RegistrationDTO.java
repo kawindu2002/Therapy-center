@@ -11,7 +11,7 @@ import java.sql.Time;
 @AllArgsConstructor
 @ToString
 
-public class AppointmentDTO {
+public class RegistrationDTO {
     private String appointmentID;
     private String patientID;
     private String therapistID;
