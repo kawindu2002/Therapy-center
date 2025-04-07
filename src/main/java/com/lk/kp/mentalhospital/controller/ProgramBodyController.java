@@ -338,9 +338,8 @@ public class ProgramBodyController implements Initializable {
 
 //------------------------------------------------------------------------------------------------------
 
-
 //@FXML
-//private TableColumn<ProgramTM, String> durationCol;
+//private TableColumn<?, ?> durationCol;
 //
 //@FXML
 //private Label durationLbl;
@@ -349,7 +348,7 @@ public class ProgramBodyController implements Initializable {
 //private TextField durationTxt;
 //
 //@FXML
-//private TableColumn<ProgramTM, Double> feeCol;
+//private TableColumn<?, ?> feeCol;
 //
 //@FXML
 //private Label feeLbl;
@@ -358,7 +357,7 @@ public class ProgramBodyController implements Initializable {
 //private TextField feeTxt;
 //
 //@FXML
-//private TableColumn<ProgramTM, String> nameCol;
+//private TableColumn<?, ?> nameCol;
 //
 //@FXML
 //private Label nameLbl;
@@ -370,7 +369,7 @@ public class ProgramBodyController implements Initializable {
 //private AnchorPane programBodyAnchPane;
 //
 //@FXML
-//private TableView<ProgramTM> programBodyTbl;
+//private TableView<?> programBodyTbl;
 //
 //@FXML
 //private Button programDeleteBtn;
@@ -379,7 +378,7 @@ public class ProgramBodyController implements Initializable {
 //private AnchorPane programHeaderAnchPane;
 //
 //@FXML
-//private TableColumn<ProgramTM, String> programIdCol;
+//private TableColumn<?, ?> programIdCol;
 //
 //@FXML
 //private Label programIdLbl;
@@ -423,3 +422,5 @@ public class ProgramBodyController implements Initializable {
 //void programUpdateBtnActionClicked(ActionEvent event) {
 //
 //}
+//
+

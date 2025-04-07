@@ -20,7 +20,7 @@
             </Label>
          </children>
       </AnchorPane>
-      <TableView fx:id="programBodyTbl" layoutX="41.0" layoutY="244.0" onMouseClicked="#onClickProgramTable" prefHeight="270.0" prefWidth="626.0">
+      <TableView fx:id="programBodyTbl" layoutX="41.0" layoutY="213.0" onMouseClicked="#onClickProgramTable" prefHeight="301.0" prefWidth="626.0">
         <columns>
           <TableColumn fx:id="programIdCol" prefWidth="75.0" text="Program ID" />
           <TableColumn fx:id="nameCol" prefWidth="201.60003662109375" text="Name" />
@@ -34,7 +34,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </TableView>
-      <Button fx:id="programSaveBtn" layoutX="701.0" layoutY="244.0" mnemonicParsing="false" onAction="#programSaveBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Save">
+      <Button fx:id="programSaveBtn" layoutX="698.0" layoutY="214.0" mnemonicParsing="false" onAction="#programSaveBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Save">
          <font>
             <Font name="Serif Bold" size="16.0" />
          </font>
@@ -42,7 +42,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="programUpdateBtn" layoutX="701.0" layoutY="290.0" mnemonicParsing="false" onAction="#programUpdateBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Update">
+      <Button fx:id="programUpdateBtn" layoutX="698.0" layoutY="260.0" mnemonicParsing="false" onAction="#programUpdateBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Update">
          <font>
             <Font name="Serif Bold" size="16.0" />
          </font>
@@ -50,7 +50,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="programDeleteBtn" layoutX="701.0" layoutY="337.0" mnemonicParsing="false" onAction="#programDeleteBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Delete">
+      <Button fx:id="programDeleteBtn" layoutX="698.0" layoutY="307.0" mnemonicParsing="false" onAction="#programDeleteBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Delete">
          <font>
             <Font name="Serif Bold" size="16.0" />
          </font>
@@ -58,7 +58,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="programResetBtn" layoutX="701.0" layoutY="384.0" mnemonicParsing="false" onAction="#programResetBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Reset">
+      <Button fx:id="programResetBtn" layoutX="698.0" layoutY="354.0" mnemonicParsing="false" onAction="#programResetBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Reset">
          <font>
             <Font name="Serif Bold" size="16.0" />
          </font>
@@ -86,22 +86,22 @@
             <Font name="Serif Bold" size="14.0" />
          </font>
       </TextField>
-      <Label fx:id="durationLbl" layoutX="459.0" layoutY="89.0" text="Duration">
+      <Label fx:id="durationLbl" layoutX="470.0" layoutY="89.0" text="Duration">
          <font>
             <Font name="Serif Bold" size="17.0" />
          </font>
       </Label>
-      <TextField fx:id="durationTxt" layoutX="590.0" layoutY="85.0" prefHeight="27.0" prefWidth="233.0" style="-fx-border-color: black;">
+      <TextField fx:id="durationTxt" layoutX="601.0" layoutY="85.0" prefHeight="27.0" prefWidth="233.0" style="-fx-border-color: black;">
          <font>
             <Font name="Serif Bold" size="14.0" />
          </font>
       </TextField>
-      <Label fx:id="feeLbl" layoutX="459.0" layoutY="139.0" text="Fee (LKR)">
+      <Label fx:id="feeLbl" layoutX="470.0" layoutY="139.0" text="Fee (LKR)">
          <font>
             <Font name="Serif Bold" size="17.0" />
          </font>
       </Label>
-      <TextField fx:id="feeTxt" layoutX="590.0" layoutY="135.0" prefHeight="27.0" prefWidth="233.0" style="-fx-border-color: black;">
+      <TextField fx:id="feeTxt" layoutX="601.0" layoutY="135.0" prefHeight="27.0" prefWidth="233.0" style="-fx-border-color: black;">
          <font>
             <Font name="Serif Bold" size="14.0" />
          </font>
