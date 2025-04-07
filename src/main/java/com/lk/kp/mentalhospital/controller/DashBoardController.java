@@ -155,8 +155,9 @@ public class DashBoardController implements Initializable {
 }
 
 //
+
 //=====================================================================================================
-//
+
 //@FXML
 //private Button appointmentManageBtn;
 //
@@ -207,12 +208,6 @@ public class DashBoardController implements Initializable {
 //
 //@FXML
 //private Button therapistManageBtn;
-//
-//@FXML
-//private Label timeLbl;
-//
-//@FXML
-//private Label timeShowLbl;
 //
 //@FXML
 //private Label userIdLbl;
@@ -272,5 +267,4 @@ public class DashBoardController implements Initializable {
 //void userManageBtnActionClicked(ActionEvent event) {
 //
 //}
-
-
+//

@@ -2,8 +2,6 @@ package com.lk.kp.mentalhospital.dto;
 
 import lombok.*;
 
-import java.sql.Date;
-
 @Getter
 @Setter
 @NoArgsConstructor

@@ -3,7 +3,6 @@ package com.lk.kp.mentalhospital.dto;
 import lombok.*;
 
 import java.sql.Date;
-import java.sql.Time;
 
 @Getter
 @Setter

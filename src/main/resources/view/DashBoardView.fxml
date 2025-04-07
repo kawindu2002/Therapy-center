@@ -120,17 +120,7 @@
                   <Font name="Serif Bold" size="18.0" />
                </font>
             </Label>
-            <Label fx:id="dateShowLbl" layoutX="98.0" layoutY="14.0" prefHeight="30.0" prefWidth="102.0" style="-fx-background-color: white;">
-               <font>
-                  <Font name="Serif Bold" size="18.0" />
-               </font>
-            </Label>
-            <Label fx:id="timeLbl" layoutX="681.0" layoutY="19.0" text="Time : " textFill="WHITE">
-               <font>
-                  <Font name="Serif Bold" size="18.0" />
-               </font>
-            </Label>
-            <Label fx:id="timeShowLbl" layoutX="745.0" layoutY="14.0" prefHeight="30.0" prefWidth="89.0" style="-fx-background-color: white;">
+            <Label fx:id="dateShowLbl" layoutX="98.0" layoutY="14.0" prefHeight="30.0" prefWidth="113.0" style="-fx-background-color: white;">
                <font>
                   <Font name="Serif Bold" size="18.0" />
                </font>
