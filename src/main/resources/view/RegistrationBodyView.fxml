@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="appointmentBodyAnchPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="875.0" style="-fx-background-color: #A5E360; -fx-border-color: black;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lk.kp.mentalhospital.controller.AppointmentBodyController">
+<AnchorPane fx:id="appointmentBodyAnchPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="875.0" style="-fx-background-color: #A5E360; -fx-border-color: black;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lk.kp.mentalhospital.controller.RegistrationBodyController">
    <children>
       <AnchorPane fx:id="appointmentHeaderAnchPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="875.0" style="-fx-background-color: Green; -fx-border-color: black;">
          <children>

@@ -19,7 +19,7 @@ import java.net.URL;
 import java.sql.SQLException;
 import java.util.ResourceBundle;
 
-public class AppointmentBodyController implements Initializable {
+public class RegistrationBodyController implements Initializable {
 
     @FXML
     private Label dateShowLbl;
