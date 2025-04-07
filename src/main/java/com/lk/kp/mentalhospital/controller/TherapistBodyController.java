@@ -335,9 +335,8 @@ public class TherapistBodyController implements Initializable {
 
 //----------------------------------------------------------------------------------------------------------------------
 
-//
 //@FXML
-//private TableColumn<TherapistTM, String> contactCol;
+//private TableColumn<?, ?> contactCol;
 //
 //@FXML
 //private Label contactLbl;
@@ -346,7 +345,7 @@ public class TherapistBodyController implements Initializable {
 //private TextField contactTxt;
 //
 //@FXML
-//private TableColumn<TherapistTM, Date> dateCol;
+//private TableColumn<?, ?> dateCol;
 //
 //@FXML
 //private Label dateLbl;
@@ -355,7 +354,7 @@ public class TherapistBodyController implements Initializable {
 //private Label dateShowLbl;
 //
 //@FXML
-//private TableColumn<TherapistTM, String> nameCol;
+//private TableColumn<?, ?> nameCol;
 //
 //@FXML
 //private Label nameLbl;
@@ -364,19 +363,19 @@ public class TherapistBodyController implements Initializable {
 //private TextField nameTxt;
 //
 //@FXML
-//private TableColumn<TherapistTM, String> specificationCol;
+//private TableColumn<?, ?> specificationCol;
 //
 //@FXML
-//private ComboBox<String> specificationCombo;
+//private ComboBox<?> specificationCombo;
 //
 //@FXML
 //private Label specificationLbl;
 //
 //@FXML
-//private TableColumn<TherapistTM, String> stateCol;
+//private TableColumn<?, ?> stateCol;
 //
 //@FXML
-//private ComboBox<String> stateCombo;
+//private ComboBox<?> stateCombo;
 //
 //@FXML
 //private Label stateLbl;
@@ -385,7 +384,7 @@ public class TherapistBodyController implements Initializable {
 //private AnchorPane therapistBodyAnchPane;
 //
 //@FXML
-//private TableView<TherapistTM> therapistBodyTbl;
+//private TableView<?> therapistBodyTbl;
 //
 //@FXML
 //private Button therapistDeleteBtn;
@@ -394,7 +393,7 @@ public class TherapistBodyController implements Initializable {
 //private AnchorPane therapistHeaderAnchPane;
 //
 //@FXML
-//private TableColumn<TherapistTM, String> therapistIdCol;
+//private TableColumn<?, ?> therapistIdCol;
 //
 //@FXML
 //private Label therapistIdLbl;
@@ -420,6 +419,16 @@ public class TherapistBodyController implements Initializable {
 //}
 //
 //@FXML
+//void specificationComboActionClicked(ActionEvent event) {
+//
+//}
+//
+//@FXML
+//void stateComboActionClicked(ActionEvent event) {
+//
+//}
+//
+//@FXML
 //void therapistDeleteBtnActionClicked(ActionEvent event) {
 //
 //}
@@ -438,4 +447,4 @@ public class TherapistBodyController implements Initializable {
 //void therapistUpdateBtnActionClicked(ActionEvent event) {
 //
 //}
-//
+

@@ -37,7 +37,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </TableView>
-      <Button fx:id="therapistSaveBtn" layoutX="701.0" layoutY="244.0" mnemonicParsing="false" onAction="#therapistSaveBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Save">
+      <Button fx:id="therapistSaveBtn" layoutX="697.0" layoutY="244.0" mnemonicParsing="false" onAction="#therapistSaveBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Save">
          <font>
             <Font name="Serif Bold" size="16.0" />
          </font>
@@ -45,7 +45,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="therapistUpdateBtn" layoutX="701.0" layoutY="290.0" mnemonicParsing="false" onAction="#therapistUpdateBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Update">
+      <Button fx:id="therapistUpdateBtn" layoutX="697.0" layoutY="290.0" mnemonicParsing="false" onAction="#therapistUpdateBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Update">
          <font>
             <Font name="Serif Bold" size="16.0" />
          </font>
@@ -53,7 +53,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="therapistDeleteBtn" layoutX="701.0" layoutY="337.0" mnemonicParsing="false" onAction="#therapistDeleteBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Delete">
+      <Button fx:id="therapistDeleteBtn" layoutX="697.0" layoutY="337.0" mnemonicParsing="false" onAction="#therapistDeleteBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Delete">
          <font>
             <Font name="Serif Bold" size="16.0" />
          </font>
@@ -61,7 +61,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="therapistResetBtn" layoutX="701.0" layoutY="384.0" mnemonicParsing="false" onAction="#therapistResetBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Reset">
+      <Button fx:id="therapistResetBtn" layoutX="697.0" layoutY="384.0" mnemonicParsing="false" onAction="#therapistResetBtnActionClicked" prefHeight="29.0" prefWidth="137.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Reset">
          <font>
             <Font name="Serif Bold" size="16.0" />
          </font>
@@ -99,7 +99,7 @@
             <Font name="Serif Bold" size="17.0" />
          </font>
       </Label>
-      <ComboBox fx:id="stateCombo" layoutX="627.0" layoutY="161.0" prefHeight="27.0" prefWidth="212.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
+      <ComboBox fx:id="stateCombo" layoutX="623.0" layoutY="161.0" onAction="#stateComboActionClicked" prefHeight="27.0" prefWidth="212.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></ComboBox>
@@ -113,7 +113,7 @@
             <Font name="Serif Bold" size="14.0" />
          </font>
       </TextField>
-      <ComboBox fx:id="specificationCombo" layoutX="627.0" layoutY="79.0" prefHeight="27.0" prefWidth="212.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
+      <ComboBox fx:id="specificationCombo" layoutX="623.0" layoutY="79.0" onAction="#specificationComboActionClicked" prefHeight="27.0" prefWidth="212.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
@@ -123,7 +123,7 @@
             <Font name="Serif Bold" size="17.0" />
          </font>
       </Label>
-      <Label fx:id="dateShowLbl" layoutX="629.0" layoutY="124.0" prefHeight="20.0" prefWidth="93.0" text="2024-10-10">
+      <Label fx:id="dateShowLbl" layoutX="625.0" layoutY="124.0" prefHeight="20.0" prefWidth="93.0" text="2024-10-10">
          <font>
             <Font name="Serif Bold" size="17.0" />
          </font>
