@@ -11,12 +11,14 @@ import java.sql.Date;
 @ToString
 
 public class TherapySessionDTO {
+    private String sessionID;
     private String patientID;
-    private String name;
-    private String address;
-    private String contact;
-    private Date regDate;
-    private String state;
+    private String therapistID;
+    private String programID;
+    private Date date;
+    private Double cost;
+    private String duration;
+    private String paymentState;
 
 }
 

@@ -71,13 +71,5 @@
             </ComboBox>
          </children>
       </AnchorPane>
-      <Button fx:id="backBtn" layoutX="944.0" layoutY="535.0" mnemonicParsing="false" onAction="#backBtnActionClicked" prefHeight="36.0" prefWidth="93.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 2px;" text="Back">
-         <font>
-            <Font name="Serif Bold" size="17.0" />
-         </font>
-         <cursor>
-            <Cursor fx:constant="HAND" />
-         </cursor>
-      </Button>
    </children>
 </AnchorPane>

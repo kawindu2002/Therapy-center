@@ -116,9 +116,6 @@ public class LoginController {
 //=====================================================================
 //
 //@FXML
-//private Button backBtn;
-//
-//@FXML
 //private Button eyeBtn;
 //
 //@FXML
@@ -161,11 +158,6 @@ public class LoginController {
 //private TextField userIdTxt;
 //
 //@FXML
-//void backBtnActionClicked(ActionEvent event) {
-//
-//}
-//
-//@FXML
 //void eyeBtnActionClicked(ActionEvent event) {
 //
 //}
@@ -179,4 +171,4 @@ public class LoginController {
 //void roleComboActionClicked(ActionEvent event) {
 //
 //}
-
+//

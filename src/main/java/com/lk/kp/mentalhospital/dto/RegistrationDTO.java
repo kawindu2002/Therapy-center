@@ -12,12 +12,10 @@ import java.sql.Time;
 @ToString
 
 public class RegistrationDTO {
-    private String appointmentID;
+    private String registrationID;
     private String patientID;
-    private String therapistID;
     private String programID;
-    private Date paymentDate;
-    private Time time;
+    private Date date;
     private String state;
 
 }

@@ -12,10 +12,9 @@ import java.sql.Date;
 
 public class TherapistDTO {
     private String therapistID;
+    private String programID;
     private String name;
     private String contact;
     private String specification;
-    private Date regDate;
-    private String state;
-
 }
+
