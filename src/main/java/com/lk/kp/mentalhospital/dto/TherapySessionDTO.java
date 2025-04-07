@@ -16,8 +16,8 @@ public class TherapySessionDTO {
     private String therapistID;
     private String programID;
     private Date date;
-    private Double cost;
     private String duration;
+    private Double cost;
     private String paymentState;
 
 }
