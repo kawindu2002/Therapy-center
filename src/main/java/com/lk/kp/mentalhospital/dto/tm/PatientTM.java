@@ -19,3 +19,4 @@ public class PatientTM {
     private String state;
 
 }
+

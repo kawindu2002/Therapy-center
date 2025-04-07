@@ -10,11 +10,11 @@ import java.sql.Date;
 @AllArgsConstructor
 @ToString
 
-public class UserTM {
-    private String userID;
+public class TherapySessionTM {
+    private String patientID;
     private String name;
-    private String password;
-    private String role;
+    private String address;
+    private String contact;
     private Date regDate;
     private String state;
 
