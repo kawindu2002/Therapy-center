@@ -16,5 +16,6 @@ public class PaymentTM {
     private double price;
     private Date paymentDate;
     private String method;
+    private String status;
 
 }
