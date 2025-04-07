@@ -121,7 +121,7 @@
             <Font name="Serif Bold" size="14.0" />
          </font>
       </TextField>
-      <ComboBox fx:id="stateCombo" layoutX="615.0" layoutY="163.0" prefHeight="26.0" prefWidth="224.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
+      <ComboBox fx:id="stateCombo" layoutX="615.0" layoutY="163.0" onAction="#stateComboActionClicked" prefHeight="26.0" prefWidth="224.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></ComboBox>
@@ -130,7 +130,7 @@
             <Font name="Serif Bold" size="17.0" />
          </font>
       </Label>
-      <ComboBox fx:id="searchByProgramCombo" layoutX="265.0" layoutY="501.0" prefHeight="26.0" prefWidth="224.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
+      <ComboBox fx:id="searchByProgramCombo" layoutX="265.0" layoutY="501.0" onAction="#searchByProgramComboActionClicked" prefHeight="26.0" prefWidth="224.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>

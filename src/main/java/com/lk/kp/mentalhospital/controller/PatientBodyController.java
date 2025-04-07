@@ -337,9 +337,9 @@ public class PatientBodyController implements Initializable {
 
 //-------------------------------------------------------------------------------------------
 //
-//
+
 //@FXML
-//private TableColumn<PatientTM, String> addressCol;
+//private TableColumn<?, ?> addressCol;
 //
 //@FXML
 //private Label addressLbl;
@@ -348,7 +348,7 @@ public class PatientBodyController implements Initializable {
 //private TextField addressTxt;
 //
 //@FXML
-//private TableColumn<PatientTM, String> contactCol;
+//private TableColumn<?, ?> contactCol;
 //
 //@FXML
 //private Label contactLbl;
@@ -357,7 +357,7 @@ public class PatientBodyController implements Initializable {
 //private TextField contactTxt;
 //
 //@FXML
-//private TableColumn<PatientTM, Date> dateCol;
+//private TableColumn<?, ?> dateCol;
 //
 //@FXML
 //private Label dateLbl;
@@ -366,7 +366,7 @@ public class PatientBodyController implements Initializable {
 //private Label dateShowLbl;
 //
 //@FXML
-//private TableColumn<PatientTM, String> nameCol;
+//private TableColumn<?, ?> nameCol;
 //
 //@FXML
 //private Label nameLbl;
@@ -378,7 +378,7 @@ public class PatientBodyController implements Initializable {
 //private AnchorPane patientBodyAnchPane;
 //
 //@FXML
-//private TableView<PatientTM> patientBodyTbl;
+//private TableView<?> patientBodyTbl;
 //
 //@FXML
 //private Button patientDeleteBtn;
@@ -387,7 +387,7 @@ public class PatientBodyController implements Initializable {
 //private AnchorPane patientHeaderAnchPane;
 //
 //@FXML
-//private TableColumn<PatientTM, String> patientIdCol;
+//private TableColumn<?, ?> patientIdCol;
 //
 //@FXML
 //private Label patientIdLbl;
@@ -411,7 +411,7 @@ public class PatientBodyController implements Initializable {
 //private Button searchBtn;
 //
 //@FXML
-//private ComboBox<String> searchByProgramCombo;
+//private ComboBox<?> searchByProgramCombo;
 //
 //@FXML
 //private Label searchByProgramLbl;
@@ -420,10 +420,10 @@ public class PatientBodyController implements Initializable {
 //private ImageView searchIcon;
 //
 //@FXML
-//private TableColumn<PatientTM, String> stateCol;
+//private TableColumn<?, ?> stateCol;
 //
 //@FXML
-//private ComboBox<String> stateCombo;
+//private ComboBox<?> stateCombo;
 //
 //@FXML
 //private Label stateLbl;
@@ -457,3 +457,14 @@ public class PatientBodyController implements Initializable {
 //void searchBtnActionClicked(ActionEvent event) {
 //
 //}
+//
+//@FXML
+//void searchByProgramComboActionClicked(ActionEvent event) {
+//
+//}
+//
+//@FXML
+//void stateComboActionClicked(ActionEvent event) {
+//
+//}
+
