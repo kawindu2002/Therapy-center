@@ -154,3 +154,123 @@ public class DashBoardController implements Initializable {
     }
 }
 
+//
+//=====================================================================================================
+//
+//@FXML
+//private Button appointmentManageBtn;
+//
+//@FXML
+//private AnchorPane dashBoardAnchPane;
+//
+//@FXML
+//private AnchorPane dashBoardBodyAnchPane;
+//
+//@FXML
+//private AnchorPane dashBoardDateCountAnchPane;
+//
+//@FXML
+//private AnchorPane dashBoardHeaderAnchPane;
+//
+//@FXML
+//private AnchorPane dashBoardNavigationAnchPane;
+//
+//@FXML
+//private Label dateLbl;
+//
+//@FXML
+//private Label dateShowLbl;
+//
+//@FXML
+//private Button generateReportsBtn;
+//
+//@FXML
+//private Label headerLbl;
+//
+//@FXML
+//private Button invoiceManageBtn;
+//
+//@FXML
+//private Button patientManageBtn;
+//
+//@FXML
+//private Button paymentManageBtn;
+//
+//@FXML
+//private Button programManageBtn;
+//
+//@FXML
+//private Button sessionManageBtn;
+//
+//@FXML
+//private Button signOutBtn;
+//
+//@FXML
+//private Button therapistManageBtn;
+//
+//@FXML
+//private Label timeLbl;
+//
+//@FXML
+//private Label timeShowLbl;
+//
+//@FXML
+//private Label userIdLbl;
+//
+//@FXML
+//private ImageView userImg;
+//
+//@FXML
+//private Button userManageBtn;
+//
+//@FXML
+//void appointmentManageBtnActionClicked(ActionEvent event) {
+//
+//}
+//
+//@FXML
+//void generateReportsBtnActionClicked(ActionEvent event) {
+//
+//}
+//
+//@FXML
+//void invoiceManageBtnActionClicked(ActionEvent event) {
+//
+//}
+//
+//@FXML
+//void patientManageBtnActionClicked(ActionEvent event) {
+//
+//}
+//
+//@FXML
+//void paymentManageBtnActionClicked(ActionEvent event) {
+//
+//}
+//
+//@FXML
+//void programManageBtnActionClicked(ActionEvent event) {
+//
+//}
+//
+//@FXML
+//void sessionManageBtnActionClicked(ActionEvent event) {
+//
+//}
+//
+//@FXML
+//void signOutBtnActionClicked(ActionEvent event) {
+//
+//}
+//
+//@FXML
+//void therapistManageBtnActionClicked(ActionEvent event) {
+//
+//}
+//
+//@FXML
+//void userManageBtnActionClicked(ActionEvent event) {
+//
+//}
+
+
