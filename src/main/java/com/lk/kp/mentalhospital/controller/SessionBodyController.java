@@ -1,25 +1,29 @@
-//package com.lk.kp.mentalhospital.controller;
-//
-////import edu.ijse.gdse71.library.dto.UserDTO;
-////import edu.ijse.gdse71.library.dto.tm.UserTM;
-////import edu.ijse.gdse71.library.model.UserModel;
-////import edu.ijse.gdse71.library.util.CommonUtil;
-//
-//import javafx.event.ActionEvent;
-//import javafx.fxml.FXML;
-//import javafx.fxml.Initializable;
-//import javafx.scene.control.Button;
-//import javafx.scene.control.ComboBox;
-//import javafx.scene.control.Label;
-//import javafx.scene.control.TextField;
-//import javafx.scene.input.MouseEvent;
-//import javafx.scene.layout.AnchorPane;
-//
-//import java.net.URL;
-//import java.sql.SQLException;
-//import java.util.ResourceBundle;
-//
-//public class SessionBodyController implements Initializable {
+package com.lk.kp.mentalhospital.controller;
+
+//import edu.ijse.gdse71.library.dto.UserDTO;
+//import edu.ijse.gdse71.library.dto.tm.UserTM;
+//import edu.ijse.gdse71.library.model.UserModel;
+//import edu.ijse.gdse71.library.util.CommonUtil;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
+import javafx.scene.control.ComboBox;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.AnchorPane;
+
+import java.net.URL;
+import java.sql.SQLException;
+import java.util.ResourceBundle;
+
+public class SessionBodyController implements Initializable {
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+
+    }
 //    @FXML
 //    private TableColumn<?, ?> costCol;
 //
@@ -186,4 +190,4 @@
 //    void therapistIdComboActionClicked(ActionEvent event) {
 //
 //    }
-//}
+}
