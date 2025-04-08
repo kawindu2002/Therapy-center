@@ -336,117 +336,95 @@ public class UserBodyController implements Initializable {
 
 //-------------------------------------------------------------------------------------------------------------------------
 
-//@FXML
-//private TableColumn<?, ?> dateCol;
-//
-//@FXML
-//private Label dateLbl;
-//
-//@FXML
-//private Label dateShowLbl;
-//
-//@FXML
-//private TableColumn<?, ?> nameCol;
-//
-//@FXML
-//private Label nameLbl;
-//
-//@FXML
-//private TextField nameTxt;
-//
-//@FXML
-//private TableColumn<?, ?> passwordCol;
-//
-//@FXML
-//private Label passwordLbl;
-//
-//@FXML
-//private TextField passwordTxt;
-//
-//@FXML
-//private TableColumn<?, ?> roleCol;
-//
-//@FXML
-//private ComboBox<?> roleCombo;
-//
-//@FXML
-//private Label roleLbl;
-//
-//@FXML
-//private TableColumn<?, ?> stateCol;
-//
-//@FXML
-//private ComboBox<?> stateCombo;
-//
-//@FXML
-//private Label stateLbl;
-//
-//@FXML
-//private AnchorPane userBodyAnchPane;
-//
-//@FXML
-//private TableView<?> userBodyTbl;
-//
-//@FXML
-//private Button userDeleteBtn;
-//
-//@FXML
-//private AnchorPane userHeaderAnchPane;
-//
-//@FXML
-//private TableColumn<?, ?> userIdCol;
-//
-//@FXML
-//private Label userIdLbl;
-//
-//@FXML
-//private Label userIdShowLbl;
-//
-//@FXML
-//private Label userManageLbl;
-//
-//@FXML
-//private Button userResetBtn;
-//
-//@FXML
-//private Button userSaveBtn;
-//
-//@FXML
-//private Button userUpdateBtn;
-//
-//@FXML
-//void onClickUserTable(MouseEvent event) {
-//
-//}
-//
-//@FXML
-//void roleComboActionClicked(ActionEvent event) {
-//
-//}
-//
-//@FXML
-//void stateComboActionClicked(ActionEvent event) {
-//
-//}
-//
-//@FXML
-//void userDeleteBtnActionClicked(ActionEvent event) {
-//
-//}
-//
-//@FXML
-//void userResetBtnActionClicked(ActionEvent event) {
-//
-//}
-//
-//@FXML
-//void userSaveBtnActionClicked(ActionEvent event) {
-//
-//}
-//
-//@FXML
-//void userUpdateBtnActionClicked(ActionEvent event) {
-//
-//}
-//
 
+//    @FXML
+//    private TableColumn<?, ?> nameCol;
+//
+//    @FXML
+//    private Label nameLbl;
+//
+//    @FXML
+//    private TextField nameTxt;
+//
+//    @FXML
+//    private TableColumn<?, ?> passwordCol;
+//
+//    @FXML
+//    private Label passwordLbl;
+//
+//    @FXML
+//    private TextField passwordTxt;
+//
+//    @FXML
+//    private TableColumn<?, ?> roleCol;
+//
+//    @FXML
+//    private ComboBox<?> roleCombo;
+//
+//    @FXML
+//    private Label roleLbl;
+//
+//    @FXML
+//    private AnchorPane userBodyAnchPane;
+//
+//    @FXML
+//    private TableView<?> userBodyTbl;
+//
+//    @FXML
+//    private Button userDeleteBtn;
+//
+//    @FXML
+//    private AnchorPane userHeaderAnchPane;
+//
+//    @FXML
+//    private TableColumn<?, ?> userIdCol;
+//
+//    @FXML
+//    private Label userIdLbl;
+//
+//    @FXML
+//    private Label userIdShowLbl;
+//
+//    @FXML
+//    private Label userManageLbl;
+//
+//    @FXML
+//    private Button userResetBtn;
+//
+//    @FXML
+//    private Button userSaveBtn;
+//
+//    @FXML
+//    private Button userUpdateBtn;
+//
+//    @FXML
+//    void onClickUserTable(MouseEvent event) {
+//
+//    }
+//
+//    @FXML
+//    void roleComboActionClicked(ActionEvent event) {
+//
+//    }
+//
+//    @FXML
+//    void userDeleteBtnActionClicked(ActionEvent event) {
+//
+//    }
+//
+//    @FXML
+//    void userResetBtnActionClicked(ActionEvent event) {
+//
+//    }
+//
+//    @FXML
+//    void userSaveBtnActionClicked(ActionEvent event) {
+//
+//    }
+//
+//    @FXML
+//    void userUpdateBtnActionClicked(ActionEvent event) {
+//
+//    }
+//
+//
