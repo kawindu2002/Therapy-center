@@ -1,11 +1,5 @@
 package com.lk.kp.mentalhospital.controller;
 
-//import edu.ijse.gdse71.library.dto.UserDTO;
-//import edu.ijse.gdse71.library.dto.tm.UserTM;
-//import edu.ijse.gdse71.library.model.UserModel;
-//import edu.ijse.gdse71.library.util.CommonUtil;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
