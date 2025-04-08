@@ -340,7 +340,7 @@ public class ProgramBodyController implements Initializable {
 //
 //
 //@FXML
-//private TableColumn<?, ?> durationCol;
+//private TableColumn<ProgramTM, String> durationCol;
 //
 //@FXML
 //private Label durationLbl;
@@ -349,7 +349,7 @@ public class ProgramBodyController implements Initializable {
 //private TextField durationTxt;
 //
 //@FXML
-//private TableColumn<?, ?> feeCol;
+//private TableColumn<ProgramTM, Double> feeCol;
 //
 //@FXML
 //private Label feeLbl;
@@ -358,7 +358,7 @@ public class ProgramBodyController implements Initializable {
 //private TextField feeTxt;
 //
 //@FXML
-//private TableColumn<?, ?> nameCol;
+//private TableColumn<ProgramTM, String> nameCol;
 //
 //@FXML
 //private Label nameLbl;
@@ -370,7 +370,7 @@ public class ProgramBodyController implements Initializable {
 //private AnchorPane programBodyAnchPane;
 //
 //@FXML
-//private TableView<?> programBodyTbl;
+//private TableView<ProgramTM> programBodyTbl;
 //
 //@FXML
 //private Button programDeleteBtn;
@@ -379,7 +379,7 @@ public class ProgramBodyController implements Initializable {
 //private AnchorPane programHeaderAnchPane;
 //
 //@FXML
-//private TableColumn<?, ?> programIdCol;
+//private TableColumn<ProgramTM, String> programIdCol;
 //
 //@FXML
 //private Label programIdLbl;
@@ -400,10 +400,10 @@ public class ProgramBodyController implements Initializable {
 //private Button programUpdateBtn;
 //
 //@FXML
-//private TableColumn<?, ?> therapistIdCol;
+//private TableColumn<ProgramTM, String> therapistIdCol;
 //
 //@FXML
-//private ComboBox<?> therapistIdCombo;
+//private ComboBox<String> therapistIdCombo;
 //
 //@FXML
 //private Label therapistIdLbl;
