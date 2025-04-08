@@ -338,8 +338,9 @@ public class PaymentBodyController implements Initializable {
 
 //------------------------------------------------------------------------------------------------------
 //
+
 //@FXML
-//private TableColumn<?, ?> dateCol;
+//private TableColumn<PaymentTM, Date> dateCol;
 //
 //@FXML
 //private Label dateLbl;
@@ -348,10 +349,10 @@ public class PaymentBodyController implements Initializable {
 //private Label dateShowLbl;
 //
 //@FXML
-//private TableColumn<?, ?> methodCol;
+//private TableColumn<PaymentTM, String> methodCol;
 //
 //@FXML
-//private ComboBox<?> methodCombo;
+//private ComboBox<String> methodCombo;
 //
 //@FXML
 //private Label methodLbl;
@@ -360,7 +361,7 @@ public class PaymentBodyController implements Initializable {
 //private AnchorPane paymentBodyAnchPane;
 //
 //@FXML
-//private TableView<?> paymentBodyTbl;
+//private TableView<PaymentTM> paymentBodyTbl;
 //
 //@FXML
 //private Button paymentDeleteBtn;
@@ -369,7 +370,7 @@ public class PaymentBodyController implements Initializable {
 //private AnchorPane paymentHeaderAnchPane;
 //
 //@FXML
-//private TableColumn<?, ?> paymentIdCol;
+//private TableColumn<PaymentTM, String> paymentIdCol;
 //
 //@FXML
 //private Label paymentIdLbl;
@@ -393,7 +394,7 @@ public class PaymentBodyController implements Initializable {
 //private Button paymentUpdateBtn;
 //
 //@FXML
-//private TableColumn<?, ?> priceCol;
+//private TableColumn<PaymentTM, Double> priceCol;
 //
 //@FXML
 //private Label priceLbl;
@@ -402,19 +403,19 @@ public class PaymentBodyController implements Initializable {
 //private TextField priceTxt;
 //
 //@FXML
-//private TableColumn<?, ?> regIdCol;
+//private TableColumn<PaymentTM, String> regIdCol;
 //
 //@FXML
-//private ComboBox<?> regIdCombo;
+//private ComboBox<String> regIdCombo;
 //
 //@FXML
 //private Label regIdLbl;
 //
 //@FXML
-//private TableColumn<?, ?> sessionIdCol;
+//private TableColumn<PaymentTM, String> sessionIdCol;
 //
 //@FXML
-//private ComboBox<?> sessionIdCombo;
+//private ComboBox<String> sessionIdCombo;
 //
 //@FXML
 //private Label sessionLbl;
