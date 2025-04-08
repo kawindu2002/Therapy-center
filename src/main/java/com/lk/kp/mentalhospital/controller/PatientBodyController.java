@@ -340,7 +340,7 @@ public class PatientBodyController implements Initializable {
 
 //
 //@FXML
-//private TableColumn<?, ?> addressCol;
+//private TableColumn<PatientTM, String> addressCol;
 //
 //@FXML
 //private Label addressLbl;
@@ -349,7 +349,7 @@ public class PatientBodyController implements Initializable {
 //private TextField addressTxt;
 //
 //@FXML
-//private TableColumn<?, ?> contactCol;
+//private TableColumn<PatientTM, String> contactCol;
 //
 //@FXML
 //private Label contactLbl;
@@ -358,7 +358,7 @@ public class PatientBodyController implements Initializable {
 //private TextField contactTxt;
 //
 //@FXML
-//private TableColumn<?, ?> firstNameCol;
+//private TableColumn<PatientTM, String> firstNameCol;
 //
 //@FXML
 //private Label firstNameLbl;
@@ -367,16 +367,16 @@ public class PatientBodyController implements Initializable {
 //private TextField firstNameTxt;
 //
 //@FXML
-//private TableColumn<?, ?> genderCol;
+//private TableColumn<PatientTM, String> genderCol;
 //
 //@FXML
-//private ComboBox<?> genderCombo;
+//private ComboBox<String> genderCombo;
 //
 //@FXML
 //private Label genderLbl;
 //
 //@FXML
-//private TableColumn<?, ?> lastNameCol;
+//private TableColumn<PatientTM, String> lastNameCol;
 //
 //@FXML
 //private Label lastNameLbl;
@@ -388,7 +388,7 @@ public class PatientBodyController implements Initializable {
 //private AnchorPane patientBodyAnchPane;
 //
 //@FXML
-//private TableView<?> patientBodyTbl;
+//private TableView<PatientTM> patientBodyTbl;
 //
 //@FXML
 //private Button patientDeleteBtn;
@@ -397,7 +397,7 @@ public class PatientBodyController implements Initializable {
 //private AnchorPane patientHeaderAnchPane;
 //
 //@FXML
-//private TableColumn<?, ?> patientIdCol;
+//private TableColumn<PatientTM, String> patientIdCol;
 //
 //@FXML
 //private Label patientIdLbl;
@@ -424,7 +424,7 @@ public class PatientBodyController implements Initializable {
 //private Button searchBtn;
 //
 //@FXML
-//private ComboBox<?> searchByProgramCombo;
+//private ComboBox<String> searchByProgramCombo;
 //
 //@FXML
 //private Label searchByProgramLbl;
