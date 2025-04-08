@@ -339,7 +339,7 @@ public class RegistrationBodyController implements Initializable {
 
 //
 //@FXML
-//private TableColumn<?, ?> dateCol;
+//private TableColumn<RegistrationTM, Date> dateCol;
 //
 //@FXML
 //private Label dateLbl;
@@ -348,10 +348,10 @@ public class RegistrationBodyController implements Initializable {
 //private Label dateShowLbl;
 //
 //@FXML
-//private TableColumn<?, ?> patientIdCol;
+//private TableColumn<RegistrationTM, String> patientIdCol;
 //
 //@FXML
-//private ComboBox<?> patientIdCombo;
+//private ComboBox<String> patientIdCombo;
 //
 //@FXML
 //private Label patientIdLbl;
@@ -363,10 +363,10 @@ public class RegistrationBodyController implements Initializable {
 //private Label patientNameShowLbl;
 //
 //@FXML
-//private TableColumn<?, ?> programIdCol;
+//private TableColumn<RegistrationTM, String> programIdCol;
 //
 //@FXML
-//private ComboBox<?> programIdCombo;
+//private ComboBox<String> programIdCombo;
 //
 //@FXML
 //private Label programIdLbl;
@@ -381,7 +381,7 @@ public class RegistrationBodyController implements Initializable {
 //private AnchorPane registrationBodyAnchPane;
 //
 //@FXML
-//private TableView<?> registrationBodyTbl;
+//private TableView<RegistrationTM> registrationBodyTbl;
 //
 //@FXML
 //private Button registrationDeleteBtn;
@@ -390,7 +390,7 @@ public class RegistrationBodyController implements Initializable {
 //private AnchorPane registrationHeaderAnchPane;
 //
 //@FXML
-//private TableColumn<?, ?> registrationIdCol;
+//private TableColumn<RegistrationTM, String> registrationIdCol;
 //
 //@FXML
 //private Label registrationIdLbl;
