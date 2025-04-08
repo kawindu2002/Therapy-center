@@ -16,7 +16,6 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 
 import java.net.URL;
-import java.sql.SQLException;
 import java.util.ResourceBundle;
 
 public class SessionBodyController implements Initializable {
@@ -25,7 +24,7 @@ public class SessionBodyController implements Initializable {
 
     }
 //    @FXML
-//    private TableColumn<?, ?> costCol;
+//    private TableColumn<TherapySessionTM, Double> costCol;
 //
 //    @FXML
 //    private Label costLbl;
@@ -34,7 +33,7 @@ public class SessionBodyController implements Initializable {
 //    private TextField costTxt;
 //
 //    @FXML
-//    private TableColumn<?, ?> dateCol;
+//    private TableColumn<TherapySessionTM, Date> dateCol;
 //
 //    @FXML
 //    private Label dateLbl;
@@ -43,7 +42,7 @@ public class SessionBodyController implements Initializable {
 //    private Label dateShowLbl;
 //
 //    @FXML
-//    private TableColumn<?, ?> durationCol;
+//    private TableColumn<TherapySessionTM, String> durationCol;
 //
 //    @FXML
 //    private Label durationLbl;
@@ -52,10 +51,10 @@ public class SessionBodyController implements Initializable {
 //    private TextField durationTxt;
 //
 //    @FXML
-//    private TableColumn<?, ?> patientCol;
+//    private TableColumn<TherapySessionTM, String> patientCol;
 //
 //    @FXML
-//    private ComboBox<?> patientIdCombo;
+//    private ComboBox<String> patientIdCombo;
 //
 //    @FXML
 //    private Label patientNameLbl;
@@ -67,10 +66,10 @@ public class SessionBodyController implements Initializable {
 //    private Label patientidLbl;
 //
 //    @FXML
-//    private TableColumn<?, ?> programIdCol;
+//    private TableColumn<TherapySessionTM, String> programIdCol;
 //
 //    @FXML
-//    private ComboBox<?> programIdCombo;
+//    private ComboBox<String> programIdCombo;
 //
 //    @FXML
 //    private Label programIdLbl;
@@ -85,7 +84,7 @@ public class SessionBodyController implements Initializable {
 //    private AnchorPane sessionBodyAnchPane;
 //
 //    @FXML
-//    private TableView<?> sessionBodyTbl;
+//    private TableView<TherapySessionTM> sessionBodyTbl;
 //
 //    @FXML
 //    private Button sessionDeleteBtn;
@@ -94,7 +93,7 @@ public class SessionBodyController implements Initializable {
 //    private AnchorPane sessionHeaderAnchPane;
 //
 //    @FXML
-//    private TableColumn<?, ?> sessionIdCol;
+//    private TableColumn<TherapySessionTM, String> sessionIdCol;
 //
 //    @FXML
 //    private Label sessionIdLbl;
@@ -118,19 +117,19 @@ public class SessionBodyController implements Initializable {
 //    private Button sessionUpdateBtn;
 //
 //    @FXML
-//    private TableColumn<?, ?> stateCol;
+//    private TableColumn<TherapySessionTM, String> stateCol;
 //
 //    @FXML
-//    private ComboBox<?> stateCombo;
+//    private ComboBox<String> stateCombo;
 //
 //    @FXML
 //    private Label stateLbl;
 //
 //    @FXML
-//    private TableColumn<?, ?> therapistIdCol;
+//    private TableColumn<TherapySessionTM, String> therapistIdCol;
 //
 //    @FXML
-//    private ComboBox<?> therapistIdCombo;
+//    private ComboBox<String> therapistIdCombo;
 //
 //    @FXML
 //    private Label therapistIdLbl;

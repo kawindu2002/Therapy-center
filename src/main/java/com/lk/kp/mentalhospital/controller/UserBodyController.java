@@ -332,7 +332,7 @@ public class UserBodyController implements Initializable {
 
 
 //    @FXML
-//    private TableColumn<?, ?> nameCol;
+//    private TableColumn<UserTM, String> nameCol;
 //
 //    @FXML
 //    private Label nameLbl;
@@ -341,7 +341,7 @@ public class UserBodyController implements Initializable {
 //    private TextField nameTxt;
 //
 //    @FXML
-//    private TableColumn<?, ?> passwordCol;
+//    private TableColumn<UserTM, String> passwordCol;
 //
 //    @FXML
 //    private Label passwordLbl;
@@ -350,10 +350,10 @@ public class UserBodyController implements Initializable {
 //    private TextField passwordTxt;
 //
 //    @FXML
-//    private TableColumn<?, ?> roleCol;
+//    private TableColumn<UserTM, String> roleCol;
 //
 //    @FXML
-//    private ComboBox<?> roleCombo;
+//    private ComboBox<String> roleCombo;
 //
 //    @FXML
 //    private Label roleLbl;
@@ -362,7 +362,7 @@ public class UserBodyController implements Initializable {
 //    private AnchorPane userBodyAnchPane;
 //
 //    @FXML
-//    private TableView<?> userBodyTbl;
+//    private TableView<UserTM> userBodyTbl;
 //
 //    @FXML
 //    private Button userDeleteBtn;
@@ -371,7 +371,7 @@ public class UserBodyController implements Initializable {
 //    private AnchorPane userHeaderAnchPane;
 //
 //    @FXML
-//    private TableColumn<?, ?> userIdCol;
+//    private TableColumn<UserTM, String> userIdCol;
 //
 //    @FXML
 //    private Label userIdLbl;
