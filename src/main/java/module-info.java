@@ -6,6 +6,6 @@ module com.lk.kp.mentalhospital {
         requires net.sf.jasperreports.core;
 
         opens com.lk.kp.mentalhospital.controller to javafx.fxml;
-//        opens com.lk.kp.mentalhospital.dto.tm to javafx.base;
+        opens com.lk.kp.mentalhospital.dto.tm to javafx.base;
         exports com.lk.kp.mentalhospital;
 }
