@@ -132,8 +132,6 @@ public class TherapistBodyController implements Initializable {
 }
 
 
-
-
 // ----------------- fixed -----------------------------------------------
 //
 //
