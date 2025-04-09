@@ -30,7 +30,7 @@ public class GetStartedController {
 
     @FXML
     void getStartedBtnActionClicked(ActionEvent event) {
-        CommonUtil.navigateTo(getStartedAnchPane,"/view/RoleChooseView.fxml");
+        CommonUtil.navigateTo(getStartedAnchPane,"/view/LoginView.fxml");
     }
 }
 

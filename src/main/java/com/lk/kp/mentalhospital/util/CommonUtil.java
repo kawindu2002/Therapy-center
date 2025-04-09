@@ -9,6 +9,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.util.Duration;
 
 import java.io.IOException;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
@@ -22,6 +23,13 @@ public class CommonUtil {
     public static String datePattern = "^(?:(?:19|20)\\d\\d)-(?:0[1-9]|1[0-2])-(?:0[1-9]|[12][0-9]|3[01])$";
     public static String zeroPositivePattern = "^\\d+$";
 
+    // store data
+    public static String date =  LocalDate.now().toString();
+
+    // store essentials for permission manage
+    public static String userId = "";
+    public static String role = "";
+    public static String password = "";
 
     // store border color changes
     public static String defaultColorBorder = ";-fx-border-color: #000000;";
