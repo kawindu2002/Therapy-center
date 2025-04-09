@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Objects;
 
 public class CommonUtil {
 
@@ -26,6 +27,7 @@ public class CommonUtil {
     // store data
     public static String date =  LocalDate.now().toString();
 
+
     // store essentials for permission manage
     public static String userId = "";
     public static String role = "";
@@ -39,7 +41,7 @@ public class CommonUtil {
     public static void navigateTo(AnchorPane anch, String fxmlPath) {
         try {
             anch.getChildren().clear();
-            AnchorPane load = FXMLLoader.load(CommonUtil.class.getResource(fxmlPath));
+            AnchorPane load = FXMLLoader.load(Objects.requireNonNull(CommonUtil.class.getResource(fxmlPath)));
             anch.getChildren().add(load);
         } catch (IOException e) {
             new Alert(Alert.AlertType.ERROR, "Fail to load panel!").show();

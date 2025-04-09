@@ -120,6 +120,6 @@
                </font>
             </Label>
          </children></AnchorPane>
-      <AnchorPane fx:id="dashBoardBodyAnchPane" layoutX="218.0" layoutY="81.0" prefHeight="560.0" prefWidth="875.0" style="-fx-background-color: black;" />
+      <AnchorPane fx:id="dashBoardBodyAnchPane" layoutX="218.0" layoutY="81.0" prefHeight="560.0" prefWidth="875.0" style="-fx-background-color: white;" />
    </children>
 </AnchorPane>

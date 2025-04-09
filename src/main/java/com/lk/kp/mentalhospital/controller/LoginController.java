@@ -66,6 +66,7 @@ public class LoginController implements Initializable {
 
     @FXML
     void loginBtnActionClicked(ActionEvent event) {
+        CommonUtil.navigateTo(loginAnchPane, "/view/DashBoardView.fxml");
 
     }
 
