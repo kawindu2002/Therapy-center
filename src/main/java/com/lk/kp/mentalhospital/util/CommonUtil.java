@@ -1,10 +1,16 @@
 package com.lk.kp.mentalhospital.util;
 
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Alert;
+import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
+import javafx.util.Duration;
 
 import java.io.IOException;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 public class CommonUtil {
 
@@ -30,6 +36,19 @@ public class CommonUtil {
         } catch (IOException e) {
             new Alert(Alert.AlertType.ERROR, "Fail to load panel!").show();
         }
+    }
+
+    // set time to dash board time label
+    public static void setTime(Label timeShowLbl){
+        Timeline time = new Timeline(
+                new KeyFrame(Duration.ZERO, e -> {
+                    DateTimeFormatter timeFormatter = DateTimeFormatter.ofPattern("HH:mm:ss");
+                    timeShowLbl.setText("  "+ LocalDateTime.now().format(timeFormatter));
+
+                }),new KeyFrame(Duration.seconds(1)));
+        time.setCycleCount(Timeline.INDEFINITE);
+        time.play();
+
     }
 
 //    //Manage update & delete Btn user permissions

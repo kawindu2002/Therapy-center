@@ -31,7 +31,7 @@
       </AnchorPane>
       <AnchorPane fx:id="dashBoardNavigationAnchPane" layoutX="6.0" layoutY="80.0" prefHeight="626.0" prefWidth="205.0" style="-fx-background-color: #606748; -fx-border-color: black;">
          <children>
-            <Button fx:id="therapistManageBtn" layoutX="21.0" layoutY="18.0" mnemonicParsing="false" onAction="#therapistManageBtnActionClicked" prefHeight="26.0" prefWidth="165.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black;" text="Therapist Manage">
+            <Button fx:id="therapistManageBtn" layoutX="21.0" layoutY="31.0" mnemonicParsing="false" onAction="#therapistManageBtnActionClicked" prefHeight="26.0" prefWidth="165.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black;" text="Therapist Manage">
                <font>
                   <Font name="Serif Bold" size="14.0" />
                </font>
@@ -39,7 +39,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="userManageBtn" layoutX="21.0" layoutY="297.0" mnemonicParsing="false" onAction="#userManageBtnActionClicked" prefHeight="26.0" prefWidth="165.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black;" text="User Manage">
+            <Button fx:id="userManageBtn" layoutX="21.0" layoutY="269.0" mnemonicParsing="false" onAction="#userManageBtnActionClicked" prefHeight="26.0" prefWidth="165.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black;" text="User Manage">
                <font>
                   <Font name="Serif Bold" size="14.0" />
                </font>
@@ -47,7 +47,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="generateReportsBtn" layoutX="21.0" layoutY="337.0" mnemonicParsing="false" onAction="#generateReportsBtnActionClicked" prefHeight="26.0" prefWidth="165.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black;" text="Generate Reports">
+            <Button fx:id="programManageBtn" layoutX="21.0" layoutY="70.0" mnemonicParsing="false" onAction="#programManageBtnActionClicked" prefHeight="26.0" prefWidth="165.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black;" text="Program Manage">
                <font>
                   <Font name="Serif Bold" size="14.0" />
                </font>
@@ -55,7 +55,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="programManageBtn" layoutX="21.0" layoutY="57.0" mnemonicParsing="false" onAction="#programManageBtnActionClicked" prefHeight="26.0" prefWidth="165.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black;" text="Program Manage">
+            <Button fx:id="patientManageBtn" layoutX="21.0" layoutY="110.0" mnemonicParsing="false" onAction="#patientManageBtnActionClicked" prefHeight="26.0" prefWidth="165.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black;" text="Patient Manage">
                <font>
                   <Font name="Serif Bold" size="14.0" />
                </font>
@@ -63,7 +63,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="patientManageBtn" layoutX="21.0" layoutY="97.0" mnemonicParsing="false" onAction="#patientManageBtnActionClicked" prefHeight="26.0" prefWidth="165.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black;" text="Patient Manage">
+            <Button fx:id="sessionManageBtn" layoutX="21.0" layoutY="150.0" mnemonicParsing="false" onAction="#sessionManageBtnActionClicked" prefHeight="26.0" prefWidth="165.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black;" text="Session Manage">
                <font>
                   <Font name="Serif Bold" size="14.0" />
                </font>
@@ -71,7 +71,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="sessionManageBtn" layoutX="21.0" layoutY="137.0" mnemonicParsing="false" onAction="#sessionManageBtnActionClicked" prefHeight="26.0" prefWidth="165.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black;" text="Session Manage">
+            <Button fx:id="registrationManageBtn" layoutX="21.0" layoutY="190.0" mnemonicParsing="false" onAction="#registrationManageBtnActionClicked" prefHeight="26.0" prefWidth="165.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black;" text="Registration Manage">
                <font>
                   <Font name="Serif Bold" size="14.0" />
                </font>
@@ -79,7 +79,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="appointmentManageBtn" layoutX="21.0" layoutY="177.0" mnemonicParsing="false" onAction="#appointmentManageBtnActionClicked" prefHeight="26.0" prefWidth="165.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black;" text="Appointment Manage">
+            <Button fx:id="paymentManageBtn" layoutX="21.0" layoutY="230.0" mnemonicParsing="false" onAction="#paymentManageBtnActionClicked" prefHeight="26.0" prefWidth="165.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black;" text="Payment Manage">
                <font>
                   <Font name="Serif Bold" size="14.0" />
                </font>
@@ -87,23 +87,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="paymentManageBtn" layoutX="21.0" layoutY="217.0" mnemonicParsing="false" onAction="#paymentManageBtnActionClicked" prefHeight="26.0" prefWidth="165.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black;" text="Payment Manage">
-               <font>
-                  <Font name="Serif Bold" size="14.0" />
-               </font>
-               <cursor>
-                  <Cursor fx:constant="HAND" />
-               </cursor>
-            </Button>
-            <Button fx:id="invoiceManageBtn" layoutX="21.0" layoutY="257.0" mnemonicParsing="false" onAction="#invoiceManageBtnActionClicked" prefHeight="26.0" prefWidth="165.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black;" text="Invoice Manage">
-               <font>
-                  <Font name="Serif Bold" size="14.0" />
-               </font>
-               <cursor>
-                  <Cursor fx:constant="HAND" />
-               </cursor>
-            </Button>
-            <Button fx:id="signOutBtn" layoutX="21.0" layoutY="380.0" mnemonicParsing="false" onAction="#signOutBtnActionClicked" prefHeight="26.0" prefWidth="165.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black;" text="Sign out">
+            <Button fx:id="signOutBtn" layoutX="21.0" layoutY="307.0" mnemonicParsing="false" onAction="#signOutBtnActionClicked" prefHeight="26.0" prefWidth="165.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black;" text="Sign out">
                <font>
                   <Font name="Serif Bold" size="14.0" />
                </font>
@@ -121,6 +105,16 @@
                </font>
             </Label>
             <Label fx:id="dateShowLbl" layoutX="98.0" layoutY="14.0" prefHeight="30.0" prefWidth="113.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="Serif Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="timeLbl" layoutX="684.0" layoutY="19.0" text="Time : " textFill="WHITE">
+               <font>
+                  <Font name="Serif Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="timeShowLbl" layoutX="748.0" layoutY="14.0" prefHeight="30.0" prefWidth="89.0" style="-fx-background-color: white;">
                <font>
                   <Font name="Serif Bold" size="18.0" />
                </font>

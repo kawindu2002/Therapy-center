@@ -63,6 +63,7 @@ public class LoginController implements Initializable {
     private TextField userIdTxt;
 
 
+
     @FXML
     void loginBtnActionClicked(ActionEvent event) {
 
@@ -107,7 +108,6 @@ public class LoginController implements Initializable {
 //    @FXML
 //    void loginBtnActionClicked(ActionEvent event) throws SQLException {//
 //        validateUserDetails();
-//
 //        boolean validUserId = userIdTxt.getText().equals(userId);
 //        boolean validPassword = passwordTxt.getText().equals(password);
 //
@@ -145,3 +145,4 @@ public class LoginController implements Initializable {
 
 
 //=====================================================================
+
