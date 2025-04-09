@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="sessionBodyAnchPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="875.0" style="-fx-background-color: #A5E360; -fx-border-color: black;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lk.kp.mentalhospital.controller.TherapistBodyController">
+<AnchorPane fx:id="sessionBodyAnchPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="875.0" style="-fx-background-color: #A5E360; -fx-border-color: black;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lk.kp.mentalhospital.controller.SessionBodyController">
    <children>
       <AnchorPane fx:id="sessionHeaderAnchPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="875.0" style="-fx-background-color: Green; -fx-border-color: black;">
          <children>
@@ -24,7 +24,7 @@
       <TableView fx:id="sessionBodyTbl" layoutX="40.0" layoutY="298.0" onMouseClicked="#onClickTherapistTable" prefHeight="226.0" prefWidth="646.0">
         <columns>
           <TableColumn fx:id="sessionIdCol" prefWidth="75.0" text="Session ID" />
-          <TableColumn fx:id="patientCol" prefWidth="75.0" text="Patient ID" />
+          <TableColumn fx:id="patientIdCol" prefWidth="75.0" text="Patient ID" />
             <TableColumn fx:id="therapistIdCol" prefWidth="75.0" text="Therapist ID" />
             <TableColumn fx:id="programIdCol" prefWidth="75.0" text="Program ID" />
             <TableColumn fx:id="dateCol" prefWidth="99.20004272460938" text="Date" />

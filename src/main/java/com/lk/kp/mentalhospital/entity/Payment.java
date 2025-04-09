@@ -1,7 +1,6 @@
 package com.lk.kp.mentalhospital.entity;
 
 import lombok.*;
-
 import java.sql.Date;
 
 @Getter

@@ -15,7 +15,5 @@ public class RegistrationTM {
     private String patientID;
     private String programID;
     private Date date;
-    private String state;
-
 }
 

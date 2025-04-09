@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="paymentBodyAnchPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="875.0" style="-fx-background-color: #A5E360; -fx-border-color: black;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.ijse.gdse71.library.controller.PaymentBodyController">
+<AnchorPane fx:id="paymentBodyAnchPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="875.0" style="-fx-background-color: #A5E360; -fx-border-color: black;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lk.kp.mentalhospital.controller.PaymentBodyController">
    <children>
       <AnchorPane fx:id="paymentHeaderAnchPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="875.0" style="-fx-background-color: green; -fx-border-color: black;">
          <children>
@@ -117,7 +117,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Label fx:id="sessionLbl" layoutX="42.0" layoutY="169.0" text="Session ID">
+      <Label fx:id="sessionIdLbl" layoutX="42.0" layoutY="169.0" text="Session ID">
          <font>
             <Font name="Serif Bold" size="17.0" />
          </font>

@@ -13,9 +13,9 @@ import java.sql.Date;
 public class PatientTM {
     private String patientID;
     private String firstName;
-    private String secondName;
-    private String address;
+    private String lastName;
     private String contact;
+    private String address;
     private String gender;
 
 }

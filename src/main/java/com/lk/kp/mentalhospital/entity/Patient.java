@@ -13,10 +13,10 @@ import java.sql.Date;
 public class Patient {
     private String patientID;
     private String firstName;
-    private String secondName;
-    private String address;
+    private String lastName;
     private String contact;
-    private Date regDate;
+    private String address;
+    private String gender;
 
 }
 

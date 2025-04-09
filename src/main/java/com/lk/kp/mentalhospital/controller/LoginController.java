@@ -15,7 +15,6 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.shape.Line;
 
 import java.net.URL;
-import java.sql.SQLException;
 import java.util.ResourceBundle;
 
 public class LoginController implements Initializable {
@@ -45,7 +44,7 @@ public class LoginController implements Initializable {
     private PasswordField passwordTxt;
 
     @FXML
-    private ComboBox<?> roleCombo;
+    private ComboBox<String> roleCombo;
 
     @FXML
     private Label roleLbl;
@@ -95,6 +94,7 @@ public class LoginController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         shownPasswordLbl.setVisible(false);
+        roleCombo.getItems().addAll("Receptionist","Admin");
     }
 
 
