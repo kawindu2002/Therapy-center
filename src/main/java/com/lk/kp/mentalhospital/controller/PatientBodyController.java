@@ -476,3 +476,17 @@ public class PatientBodyController implements Initializable {
 //void searchByProgramComboActionClicked(ActionEvent event) {
 //
 //}
+//
+//@Override
+//public void initialize(URL url, ResourceBundle resourceBundle) {
+
+//        setCellValues();
+//        stateCombo.getItems().addAll("Inactive","Active");
+//        roleCombo.getItems().addAll("Admin","Employee");
+//
+//        try {
+//            refreshPage();
+//        } catch (SQLException e) {
+//            new Alert(Alert.AlertType.ERROR, "Fail to refresh page").show();
+//        }
+//}

@@ -4,24 +4,21 @@ package com.lk.kp.mentalhospital.controller;
 //import edu.ijse.gdse71.library.model.UserModel;
 //import edu.ijse.gdse71.library.util.CommonUtil;
 import com.lk.kp.mentalhospital.util.CommonUtil;
+import javafx.beans.binding.Bindings;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.image.ImageView;
-import javafx.scene.input.MouseEvent;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.shape.Line;
-import javafx.scene.shape.Rectangle;
 
+import java.net.URL;
 import java.sql.SQLException;
+import java.util.ResourceBundle;
 
-public class LoginController {
-
-    @FXML
-    private Button backBtn;
-
-    @FXML
-    private ImageView eye_icon;
+public class LoginController implements Initializable {
 
     @FXML
     private AnchorPane loginAnchPane;
@@ -39,9 +36,6 @@ public class LoginController {
     private Label loginLbl;
 
     @FXML
-    private Rectangle eye_container;
-
-    @FXML
     private Line loginLine;
 
     @FXML
@@ -51,10 +45,56 @@ public class LoginController {
     private PasswordField passwordTxt;
 
     @FXML
+    private ComboBox<?> roleCombo;
+
+    @FXML
+    private Label roleLbl;
+
+    @FXML
+    private ToggleButton showToggle;
+
+    @FXML
+    private Label shownPasswordLbl;
+
+    @FXML
     private Label userIdLbl;
 
     @FXML
     private TextField userIdTxt;
+
+
+    @FXML
+    void loginBtnActionClicked(ActionEvent event) {
+
+    }
+
+    @FXML
+    void passwordKeyTyped(KeyEvent event) {
+        shownPasswordLbl.textProperty().bind(Bindings.concat(passwordTxt.getText()));
+    }
+
+    @FXML
+    void roleComboActionClicked(ActionEvent event) {
+
+    }
+
+    @FXML
+    void showToggleOnAction(ActionEvent event) {
+        if (showToggle.isSelected()) {
+            shownPasswordLbl.setVisible(true);
+            shownPasswordLbl.textProperty().bind(Bindings.concat(passwordTxt.getText()));
+            showToggle.setText("hide");
+        }else{
+            shownPasswordLbl.setVisible(false);
+            showToggle.setText("show");
+        }
+    }
+
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        shownPasswordLbl.setVisible(false);
+    }
+
 
 //
 //    final UserModel userModel = new UserModel();
@@ -63,16 +103,9 @@ public class LoginController {
 //    private String password;
 //    private String role;
 //
-    @FXML
-    void backBtnActionClicked(ActionEvent event) {
-        CommonUtil.navigateTo(loginAnchPane,"/view/RoleChooseView.fxml");
-    }
 //
-    @FXML
-    void loginBtnActionClicked(ActionEvent event) throws SQLException {
-        CommonUtil.navigateTo(loginAnchPane,"/view/DashBoardView.fxml");
-//
-//
+//    @FXML
+//    void loginBtnActionClicked(ActionEvent event) throws SQLException {//
 //        validateUserDetails();
 //
 //        boolean validUserId = userIdTxt.getText().equals(userId);
@@ -93,12 +126,10 @@ public class LoginController {
 //        }else{
 //            new Alert(Alert.AlertType.ERROR, "Check the role!").show();
 //        }
-    }
+//    }
 
 
-    public void eyeBtnActionClicked(ActionEvent actionEvent) {
-    }
-
+//
 
 //    void validateUserDetails() throws SQLException {
 //        String selectedUserId = userIdTxt.getText();
@@ -114,61 +145,3 @@ public class LoginController {
 
 
 //=====================================================================
-//
-//@FXML
-//private Button eyeBtn;
-//
-//@FXML
-//private ImageView eye_icon;
-//
-//@FXML
-//private AnchorPane loginAnchPane;
-//
-//@FXML
-//private Button loginBtn;
-//
-//@FXML
-//private AnchorPane loginContentAnchPane;
-//
-//@FXML
-//private ImageView loginImg;
-//
-//@FXML
-//private Label loginLbl;
-//
-//@FXML
-//private Line loginLine;
-//
-//@FXML
-//private Label passwordLbl;
-//
-//@FXML
-//private PasswordField passwordTxt;
-//
-//@FXML
-//private ComboBox<?> roleCombo;
-//
-//@FXML
-//private Label roleLbl;
-//
-//@FXML
-//private Label userIdLbl;
-//
-//@FXML
-//private TextField userIdTxt;
-//
-//@FXML
-//void eyeBtnActionClicked(ActionEvent event) {
-//
-//}
-//
-//@FXML
-//void loginBtnActionClicked(ActionEvent event) {
-//
-//}
-//
-//@FXML
-//void roleComboActionClicked(ActionEvent event) {
-//
-//}
-//

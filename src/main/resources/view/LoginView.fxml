@@ -6,6 +6,7 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -49,26 +50,30 @@
                <font>
                   <Font name="Serif Bold" size="14.0" />
                </font></TextField>
-            <PasswordField fx:id="passwordTxt" layoutX="155.0" layoutY="198.0" prefHeight="26.0" prefWidth="234.0" style="-fx-border-color: black;">
+            <PasswordField fx:id="passwordTxt" layoutX="155.0" layoutY="198.0" onKeyTyped="#passwordKeyTyped" prefHeight="26.0" prefWidth="234.0" style="-fx-border-color: black;">
                <font>
                   <Font name="Serif Bold" size="14.0" />
                </font></PasswordField>
-            <Button fx:id="eyeBtn" layoutX="397.0" layoutY="197.0" mnemonicParsing="false" onAction="#eyeBtnActionClicked" prefHeight="27.0" prefWidth="30.0" style="-fx-background-color: black;" textFill="#0d0101" />
-            <ImageView fx:id="eye_icon" fitHeight="22.0" fitWidth="24.0" layoutX="401.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../icons/eye-icon.png" />
-               </image>
-            </ImageView>
-            <Label fx:id="roleLbl" layoutX="46.0" layoutY="251.0" text="Role">
+            <Label fx:id="roleLbl" layoutX="46.0" layoutY="262.0" text="Role">
                <font>
                   <Font name="Serif Bold" size="19.0" />
                </font>
             </Label>
-            <ComboBox fx:id="roleCombo" layoutX="155.0" layoutY="248.0" onAction="#roleComboActionClicked" prefHeight="27.0" prefWidth="234.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
+            <ComboBox fx:id="roleCombo" layoutX="153.0" layoutY="259.0" onAction="#roleComboActionClicked" prefHeight="27.0" prefWidth="234.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" visibleRowCount="5">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
             </ComboBox>
+            <Label fx:id="shownPasswordLbl" layoutX="156.0" layoutY="233.0" prefHeight="16.0" prefWidth="234.0" text="shown password" textFill="WHITE">
+               <font>
+                  <Font name="Serif Bold" size="14.0" />
+               </font>
+            </Label>
+            <ToggleButton fx:id="showToggle" layoutX="393.0" layoutY="197.0" mnemonicParsing="false" onAction="#showToggleOnAction" prefHeight="26.0" prefWidth="44.0" text="show">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </ToggleButton>
          </children>
       </AnchorPane>
    </children>

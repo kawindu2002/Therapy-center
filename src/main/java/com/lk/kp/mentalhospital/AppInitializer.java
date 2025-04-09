@@ -11,7 +11,7 @@ public class AppInitializer extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         stage.getIcons().add(new Image(getClass().getResourceAsStream("/icons/therapy-icon.png")));
-        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/GetStartedView.fxml"))));
+        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/LoginView.fxml"))));
         stage.setResizable(false);
         stage.centerOnScreen();
         stage.show();
