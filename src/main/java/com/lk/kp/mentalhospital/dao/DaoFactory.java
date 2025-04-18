@@ -8,37 +8,20 @@ public class DaoFactory {
         return daoFactory==null?daoFactory=new DaoFactory():daoFactory;
     }
 
-    public enum DAOTypes{
-        PATIENT,
-        PAYMENT,
-        PROGRAM,
-        REGISTRATION,
-        THERAPIST,
-        THERAPYSESSION,
-        USER
 
-    }
+    public <T extends SuperDAO> T getDAO(DaoTypes daoTypes){
+        // prevent compiler warning about unchecked type casting
 
-
-    public SuperDAO getDao(DAOTypes daoTypes){
-        switch (daoTypes){
-
-            case PATIENT:
-//                return new PatientDaoImpl();
-            case PAYMENT:
-//                return new PaymentDaoImpl();
-            case PROGRAM:
-//                return new ProgramDaoImpl();
-            case REGISTRATION:
-//                return new RegistrationDaoImpl();
-            case THERAPIST:
-//                return new TherapistDaoImpl();
-            case THERAPYSESSION:
-//                return new TherapySessionDaoImpl();
-            case USER:
-//                return new UserDaoImpl();
-            default:
-                return null;
-        }
+        return switch (daoTypes) {
+//            case PATIENT -> (T) new PatientDaoImpl();
+//            case PAYMENT -> (T) new PaymentDaoImpl();
+//            case PROGRAM -> (T) new ProgramDaoImpl();
+//            case REGISTRATION -> (T) new RegistrationDaoImpl();
+//            case THERAPIST -> (T) new TherapistDaoImpl();
+//            case THERAPYSESSION -> (T) new TherapySessionDaoImpl();
+//            case USER -> (T) new UserDaoImpl();
+            default -> null;
+        };
     }
 }
+
