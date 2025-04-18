@@ -1,9 +1,7 @@
-package com.lk.kp.mentalhospital.bo.custom;
+package com.lk.kp.mentalhospital.bo;
 
 //import com.lk.kp.mentalhospital.custom.impl.*;
 
-
-import com.lk.kp.mentalhospital.bo.SuperBO;
 
 public class BoFactory {
     private static BoFactory boFactory;
