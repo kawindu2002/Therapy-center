@@ -8,7 +8,7 @@ import lombok.*;
 @AllArgsConstructor
 @ToString
 
-public class User {
+public class User implements SuperEntity {
     private String userID;
     private String name;
     private String password;

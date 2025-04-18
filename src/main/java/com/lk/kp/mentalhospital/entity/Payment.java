@@ -9,7 +9,7 @@ import java.sql.Date;
 @AllArgsConstructor
 @ToString
 
-public class Payment {
+public class Payment implements SuperEntity{
     private String paymentID;
     private String registrationID;
     private String therapysessionID;

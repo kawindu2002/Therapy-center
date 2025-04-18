@@ -8,7 +8,7 @@ import lombok.*;
 @AllArgsConstructor
 @ToString
 
-public class Patient {
+public class Patient implements SuperEntity{
     private String patientID;
     private String firstName;
     private String lastName;

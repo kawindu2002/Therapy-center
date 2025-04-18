@@ -10,7 +10,7 @@ import java.sql.Date;
 @AllArgsConstructor
 @ToString
 
-public class Registration {
+public class Registration implements SuperEntity {
     private String registrationID;
     private String patientID;
     private String programID;
