@@ -8,7 +8,7 @@ public class DaoFactory {
         return daoFactory==null?daoFactory=new DaoFactory():daoFactory;
     }
 
-
+    @SuppressWarnings("unchecked")
     public <T extends SuperDAO> T getDAO(DaoTypes daoTypes){
         // prevent compiler warning about unchecked type casting
 

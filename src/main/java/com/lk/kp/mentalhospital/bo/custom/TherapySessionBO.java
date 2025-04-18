@@ -1,4 +1,6 @@
 package com.lk.kp.mentalhospital.bo.custom;
 
-public interface TherapySessionBO {
+import com.lk.kp.mentalhospital.bo.SuperBO;
+
+public interface TherapySessionBO extends SuperBO {
 }
