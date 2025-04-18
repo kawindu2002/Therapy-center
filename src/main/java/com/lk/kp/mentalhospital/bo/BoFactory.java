@@ -8,10 +8,10 @@ public class BoFactory {
         return boFactory == null ? boFactory = new BoFactory() : boFactory;
     }
 
-    public <T extends SuperBO> T getBO(BoTypes boTypes){
-
-        // prevent compiler warning about unchecked type casting
-        return switch (boTypes) {
+//    public <T extends SuperBO> T getBO(BoTypes boTypes){
+//
+//        // prevent compiler warning about unchecked type casting
+//        return switch (boTypes) {
 //            case PATIENT -> (T) new PatientBoImpl();
 //            case PAYMENT -> (T) new PaymentBoImpl();
 //            case PROGRAM -> (T) new ProgramBoImpl();
@@ -19,9 +19,7 @@ public class BoFactory {
 //            case THERAPIST -> (T) new TherapistBoImpl();
 //            case THERAPYSESSION -> (T) new TherapySessionBoImpl();
 //            case USER -> (T) new UserBoImpl();
-            default -> null;
-        };
-    }
+//        };
+//    }
 }
-
 
