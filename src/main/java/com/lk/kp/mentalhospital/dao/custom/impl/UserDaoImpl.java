@@ -1,4 +1,6 @@
 package com.lk.kp.mentalhospital.dao.custom.impl;
 
-public class UserDaoImpl {
+import com.lk.kp.mentalhospital.dao.custom.UserDAO;
+
+public class UserDaoImpl implements UserDAO {
 }

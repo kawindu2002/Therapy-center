@@ -1,4 +1,6 @@
 package com.lk.kp.mentalhospital.dao.custom.impl;
 
-public class PaymentDaoImpl {
+import com.lk.kp.mentalhospital.dao.custom.PaymentDAO;
+
+public class PaymentDaoImpl implements PaymentDAO {
 }

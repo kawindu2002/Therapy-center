@@ -1,4 +1,6 @@
 package com.lk.kp.mentalhospital.dao.custom.impl;
 
-public class ProgramDaoImpl {
+import com.lk.kp.mentalhospital.dao.custom.ProgramDAO;
+
+public class ProgramDaoImpl implements ProgramDAO {
 }

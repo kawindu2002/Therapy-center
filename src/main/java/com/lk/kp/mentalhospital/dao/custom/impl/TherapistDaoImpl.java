@@ -1,4 +1,6 @@
 package com.lk.kp.mentalhospital.dao.custom.impl;
 
-public class TherapistDaoImpl {
+import com.lk.kp.mentalhospital.dao.custom.TherapistDAO;
+
+public class TherapistDaoImpl implements TherapistDAO {
 }
