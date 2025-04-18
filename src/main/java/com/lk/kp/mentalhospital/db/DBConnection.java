@@ -15,7 +15,7 @@ public class DBConnection {
     private DBConnection() throws SQLException {
         String URL = "jdbc:mysql://localhost:3306/serenity_therapy";
         String USER = "root";
-        String PASSWORD = "1234";jdbc:mysql://localhost:3306/serenity_therapy
+        String PASSWORD = "Ijse@1234";
         connection = DriverManager.getConnection(URL, USER, PASSWORD);
     }
 
@@ -24,13 +24,5 @@ public class DBConnection {
     }
 
 }
-
-
-
-
-
-
-
-
 
 
