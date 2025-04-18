@@ -53,11 +53,11 @@
             <!--      <scope>provided</scope>-->
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/net.sf.jasperreports/jasperreports -->
+        <!-- Hibernate dependency -->
         <dependency>
-            <groupId>net.sf.jasperreports</groupId>
-            <artifactId>jasperreports</artifactId>
-            <version>7.0.1</version>
+            <groupId>org.hibernate.orm</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>6.6.10.Final</version>
         </dependency>
 
     </dependencies>
