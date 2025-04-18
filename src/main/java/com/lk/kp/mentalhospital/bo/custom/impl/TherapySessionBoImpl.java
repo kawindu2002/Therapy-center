@@ -1,4 +1,6 @@
 package com.lk.kp.mentalhospital.bo.custom.impl;
 
-public class TherapySessionBoImpl {
+import com.lk.kp.mentalhospital.bo.custom.TherapySessionBO;
+
+public class TherapySessionBoImpl implements TherapySessionBO {
 }

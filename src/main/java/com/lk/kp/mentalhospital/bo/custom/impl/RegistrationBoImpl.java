@@ -1,4 +1,6 @@
 package com.lk.kp.mentalhospital.bo.custom.impl;
 
-public class RegistrationBoImpl {
+import com.lk.kp.mentalhospital.bo.custom.RegistrationBO;
+
+public class RegistrationBoImpl implements RegistrationBO {
 }

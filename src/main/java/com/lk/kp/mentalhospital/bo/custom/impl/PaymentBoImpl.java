@@ -1,4 +1,6 @@
 package com.lk.kp.mentalhospital.bo.custom.impl;
 
-public class PaymentBoImpl {
+import com.lk.kp.mentalhospital.bo.custom.PaymentBO;
+
+public class PaymentBoImpl implements PaymentBO {
 }
