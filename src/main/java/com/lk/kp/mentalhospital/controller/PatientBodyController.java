@@ -11,6 +11,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 
 import java.net.URL;
+import java.sql.SQLException;
 import java.util.ResourceBundle;
 
 public class PatientBodyController implements Initializable {
@@ -109,6 +110,7 @@ public class PatientBodyController implements Initializable {
     private ImageView searchIcon;
 
 
+
     @FXML
     void genderComboActionClicked(ActionEvent event) {
 
@@ -116,7 +118,22 @@ public class PatientBodyController implements Initializable {
 
     @FXML
     void onClickPatientTable(MouseEvent event) {
+        PatientTM selectedItem = patientBodyTbl.getSelectionModel().getSelectedItem();
+        if (selectedItem != null) {
+            patientIdShowLbl.setText(selectedItem.getPatientID());
+            firstNameTxt.setText(selectedItem.getFirstName());
+            lastNameTxt.setText(selectedItem.getLastName());
+            contactTxt.setText(selectedItem.getContact());
+            addressTxt.setText(selectedItem.getAddress());
+            genderCombo.getSelectionModel().select(selectedItem.getGender());
 
+            patientSaveBtn.setDisable(true);
+
+            patientDeleteBtn.setDisable(false);
+            patientUpdateBtn.setDisable(false);
+            patientResetBtn.setDisable(false);
+            patientReportBtn.setDisable(false);
+        }
     }
 
     @FXML
@@ -159,12 +176,12 @@ public class PatientBodyController implements Initializable {
 
             setCellValues();
             genderCombo.getItems().addAll("Male","Female","Other");
-//
-//            try {
-//                refreshPage();
-//            } catch (SQLException e) {
-//                new Alert(Alert.AlertType.ERROR, "Fail to refresh page").show();
-//            }
+
+            try {
+                refreshPage();
+            } catch (SQLException e) {
+                new Alert(Alert.AlertType.ERROR, "Fail to refresh page").show();
+            }
     }
 
 
@@ -178,6 +195,22 @@ public class PatientBodyController implements Initializable {
 
     }
 
+    private void refreshPage() throws SQLException {
+        loadNextPatientId();
+        loadTableData();
+
+        patientSaveBtn.setDisable(false);
+
+        patientUpdateBtn.setDisable(true);
+        patientDeleteBtn.setDisable(true);
+
+        firstNameTxt.setText("");
+        lastNameTxt.setText("");
+        contactTxt.setText("");
+        addressTxt.setText("");
+        genderCombo.getSelectionModel().clearSelection();
+
+    }
 }
 
 //------------------- fixed ---------------------------------

@@ -27,7 +27,6 @@ public class CommonUtil {
     // store data
     public static String date =  LocalDate.now().toString();
 
-
     // store essentials for permission manage
     public static String userId = "";
     public static String role = "";
