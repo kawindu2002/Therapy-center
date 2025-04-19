@@ -196,8 +196,8 @@ public class PatientBodyController implements Initializable {
     }
 
     private void refreshPage() throws SQLException {
-        loadNextPatientId();
-        loadTableData();
+//        loadNextPatientId();
+//        loadTableData();
 
         patientSaveBtn.setDisable(false);
 
