@@ -12,6 +12,7 @@ import javafx.scene.layout.AnchorPane;
 
 import java.net.URL;
 import java.sql.SQLException;
+import java.util.Optional;
 import java.util.ResourceBundle;
 
 public class PatientBodyController implements Initializable {
@@ -138,7 +139,21 @@ public class PatientBodyController implements Initializable {
 
     @FXML
     void patientDeleteBtnActionClicked(ActionEvent event) {
-
+//        String patientId = patientIdShowLbl.getText();
+//
+//        Alert alert = new Alert(Alert.AlertType.CONFIRMATION, "Are you sure?", ButtonType.YES, ButtonType.NO);
+//        Optional<ButtonType> optionalButtonType = alert.showAndWait();
+//
+//        if (optionalButtonType.isPresent() && optionalButtonType.get() == ButtonType.YES) {
+//
+//            boolean isDeleted = userModel.deletePatient(patientId);
+//            if (isDeleted) {
+//                refreshPage();
+//                new Alert(Alert.AlertType.INFORMATION, "Patient deleted...!").show();
+//            } else {
+//                new Alert(Alert.AlertType.ERROR, "Fail to delete patient...!").show();
+//            }
+//        }
     }
 
     @FXML
@@ -211,99 +226,15 @@ public class PatientBodyController implements Initializable {
         genderCombo.getSelectionModel().clearSelection();
 
     }
+
+
+
+
+
 }
 
 //------------------- fixed ---------------------------------
 
-
-//    @FXML
-//    private Label dateShowLbl;
-//
-////    @FXML
-////    private TableColumn<UserTM, String> nameCol;
-//
-//    @FXML
-//    private Label nameLbl;
-//
-//    @FXML
-//    private TextField nameTxt;
-//
-////    @FXML
-////    private TableColumn<UserTM, String> passwordCol;
-//
-//    @FXML
-//    private Label passwordLbl;
-//
-//    @FXML
-//    private TextField passwordTxt;
-////
-////    @FXML
-////    private TableColumn<UserTM, Date> regDateCol;
-//
-//    @FXML
-//    private Label regDateLbl;
-//
-////    @FXML
-////    private TableColumn<UserTM, String> roleCol;
-//
-//    @FXML
-//    private Label roleLbl;
-//
-//    @FXML
-//    private TextField roleTxt;
-//
-////    @FXML
-////    private TableColumn<UserTM, String> stateCol;
-//
-//    @FXML
-//    private ComboBox<String> stateCombo;
-//
-//    @FXML
-//    private Label stateLbl;
-//
-//    @FXML
-//    private AnchorPane userBodyAnchPane;
-//
-////    @FXML
-////    private TableView<UserTM> userBodyTbl;
-//
-//    @FXML
-//    private Button userDeleteBtn;
-//
-//    @FXML
-//    private AnchorPane userHeaderAnchPane;
-//
-////    @FXML
-////    private TableColumn<UserTM, String> userIdCol;
-//
-//    @FXML
-//    private Label userIdLbl;
-//
-//    @FXML
-//    private Label userIdShowLbl;
-//
-//    @FXML
-//    private Label userManageLbl;
-//
-//    @FXML
-//    private Button userResetBtn;
-//
-//    @FXML
-//    private Button userSaveBtn;
-//
-//    @FXML
-//    private Button userUpdateBtn;
-//
-//    @FXML
-//    private ComboBox<String> roleCombo;
-//
-//
-////    final UserModel userModel = new UserModel();
-//
-//
-//    //------------------------------------------------------------------------------------------------------------------
-//
-//
 //    @FXML
 //    void userDeleteBtnActionClicked(ActionEvent event) throws SQLException {
 ////        String userId = userIdShowLbl.getText();
